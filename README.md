@@ -13,7 +13,7 @@
 ---
 
 ## 🌐 Socials:
-[LinkedIn](https://www.linkedin.com/in/abhiramn) | [GitHub](https://github.com/isjustabhi)  
+[LinkedIn](https://www.linkedin.com/in/isjustabhi) | [GitHub](https://github.com/isjustabhi)  | [Instagram](https://www.instagram.com/isjust_abhi/) 
 
 ---
 
