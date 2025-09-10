@@ -13,7 +13,8 @@
 ---
 
 ## 🌐 Socials:
-[LinkedIn](https://www.linkedin.com/in/isjustabhi) | [GitHub](https://github.com/isjustabhi)  | [Instagram](https://www.instagram.com/isjust_abhi/) 
+[LinkedIn](https://www.linkedin.com/in/isjustabhi) | [GitHub](https://github.com/isjustabhi)  | [Instagram](https://www.instagram.com/isjust_abhi/) |  [Google Scholar](https://scholar.google.com/citations?user=nhEzRmAAAAAJ&hl=en&authuser=2) 
+
 
 ---
 
