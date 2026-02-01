@@ -12,15 +12,8 @@
 
 ---
 
-## 🚀 Highlights (Recent Work)
-- Built end-to-end **Tableau + SQL** workflows for live dashboards (daily refresh) for university operations  
-- Ran **NLP pipelines** on large unstructured text datasets (topic/risk pattern extraction)  
-- Worked on **RAG + retrieval + benchmarking** for security/vulnerability datasets (CVE/CWE)
-
----
-
 ## 🌐 Socials:
-[LinkedIn](https://www.linkedin.com/in/isjustabhi) | [GitHub](https://github.com/isjustabhi) | [Instagram](https://www.instagram.com/isjust_abhi/) | [Google Scholar](https://scholar.google.com/citations?user=nhEzRmAAAAAJ&hl=en&authuser=2)
+[LinkedIn](https://www.linkedin.com/in/abhiramvn) | [GitHub](https://github.com/isjustabhi) | [Instagram](https://www.instagram.com/isjust_abhi/) | [Google Scholar](https://scholar.google.com/citations?user=nhEzRmAAAAAJ&hl=en&authuser=2)
 
 ---
 
@@ -45,21 +38,19 @@
 ---
 
 ## 🔥 Featured Projects:
-
 - **[Shape-Color Joint VAE](https://github.com/isjustabhi/shape_color_joint_vae)** – Generative model for **P(shape, color)**
-- **[Conditional Generative Models](https://github.com/isjustabhi/shape_color_cond1_color_given_shape)** – **P(color|shape)** and **P(shape|color)** with VAEs
-
-- **[Cyber Intel PDF Q&A Assistant](https://github.com/isjustabhi/Cyber-Intel-PDF-Q-A-Assistant)** – CVE/CWE-focused vulnerability intelligence assistant
-- **[PDF QA System](https://github.com/isjustabhi/PDF-QA-System)** – Ask questions over custom PDFs
-- **[Emotion Classification (Tweets)](https://github.com/isjustabhi/Emotion-Classification-Tweets)** – TF-IDF + Logistic Regression emotion classifier
-- **[Skin Disease Classification](https://github.com/isjustabhi/Enhancing-Multi-class-Skin-Disease-Classification)** – Multi-class image classification project
-- **[Parkinson’s Detection System](https://github.com/isjustabhi/Parkinson-s-Disease-Detection-System)** – Detection system project
-
+- **[Conditional VAE: P(color|shape)](https://github.com/isjustabhi/shape_color_cond1_color_given_shape)** – Conditional generative modeling
+- **[Conditional VAE: P(shape|color)](https://github.com/isjustabhi/shape_color_cond2_shape_given_color)** – Conditional generative modeling
+- **[Compositional Generative Toy](https://github.com/isjustabhi/compositional-generative-toy)** – Learning compositional structure in generative models
+- **[MediBERTx](https://github.com/isjustabhi/MediBERTx)** – Clinical NLP toolkit using BERT/T5
+- **[Emotion Classification (Tweets)](https://github.com/isjustabhi/Emotion-Classification-Tweets)** – TF-IDF + Logistic Regression
+- **[Abhi Portfolio (Streamlit)](https://github.com/isjustabhi/abhi-portfolio-streamlit)** – Portfolio app
 
 ---
 
-### 📅 Recent Activity:
-(Your activity graph will auto-show on your GitHub profile.)
+### 🔒 Private Projects (available on request)
+- Cybersecurity RAG / PDF QA systems (private repos)
+- YouTube ETL pipeline (private repo)
 
 ---
 
