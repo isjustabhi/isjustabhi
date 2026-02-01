@@ -12,9 +12,15 @@
 
 ---
 
-## 🌐 Socials:
-[LinkedIn](https://www.linkedin.com/in/isjustabhi) | [GitHub](https://github.com/isjustabhi)  | [Instagram](https://www.instagram.com/isjust_abhi/) |  [Google Scholar](https://scholar.google.com/citations?user=nhEzRmAAAAAJ&hl=en&authuser=2) 
+## 🚀 Highlights (Recent Work)
+- Built end-to-end **Tableau + SQL** workflows for live dashboards (daily refresh) for university operations  
+- Ran **NLP pipelines** on large unstructured text datasets (topic/risk pattern extraction)  
+- Worked on **RAG + retrieval + benchmarking** for security/vulnerability datasets (CVE/CWE)
 
+---
+
+## 🌐 Socials:
+[LinkedIn](https://www.linkedin.com/in/isjustabhi) | [GitHub](https://github.com/isjustabhi) | [Instagram](https://www.instagram.com/isjust_abhi/) | [Google Scholar](https://scholar.google.com/citations?user=nhEzRmAAAAAJ&hl=en&authuser=2)
 
 ---
 
@@ -39,10 +45,21 @@
 ---
 
 ## 🔥 Featured Projects:
-- **[Shape-Color Joint VAE](https://github.com/isjustabhi/shape_color_joint_vae)** – Generative model for **P(shape, color)**  
-- **[Conditional Generative Models](https://github.com/isjustabhi/shape_color_cond1_color_given_shape)** – **P(color|shape)** and **P(shape|color)** with VAEs  
-- **[Cybersecurity RAG QA System](#)** – RAG pipeline with LangChain, Flask, and React  
-- **[HWS 2025 Dashboard](#)** – Health & Wellness analytics in Tableau and Python  
+### ✅ Generative Modeling (VAE)
+- **Shape-Color Joint VAE** – Generative model for **P(shape, color)**  
+  https://github.com/isjustabhi/shape_color_joint_vae
+
+- **Conditional Generative Models** – **P(color|shape)** and **P(shape|color)** with VAEs  
+  https://github.com/isjustabhi/shape_color_cond1_color_given_shape
+
+### ✅ RAG / NLP Systems (Template links that won’t break)
+> Replace `your-repo-name` with your real repo once it’s public.
+
+- **Cybersecurity RAG QA System** – LangChain + Flask + React  
+  https://github.com/isjustabhi/your-repo-name
+
+- **HWS 2025 Dashboard** – Health & Wellness analytics (Tableau + Python)  
+  https://github.com/isjustabhi/your-repo-name
 
 ---
 
@@ -52,19 +69,3 @@
 ---
 
 ⭐ **Check out my pinned repositories for projects & research work!**
-
-
-<!--
-**isjustabhi/isjustabhi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
