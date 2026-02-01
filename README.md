@@ -45,21 +45,16 @@
 ---
 
 ## 🔥 Featured Projects:
-### ✅ Generative Modeling (VAE)
-- **Shape-Color Joint VAE** – Generative model for **P(shape, color)**  
-  https://github.com/isjustabhi/shape_color_joint_vae
 
-- **Conditional Generative Models** – **P(color|shape)** and **P(shape|color)** with VAEs  
-  https://github.com/isjustabhi/shape_color_cond1_color_given_shape
+- **[Shape-Color Joint VAE](https://github.com/isjustabhi/shape_color_joint_vae)** – Generative model for **P(shape, color)**
+- **[Conditional Generative Models](https://github.com/isjustabhi/shape_color_cond1_color_given_shape)** – **P(color|shape)** and **P(shape|color)** with VAEs
 
-### ✅ RAG / NLP Systems (Template links that won’t break)
-> Replace `your-repo-name` with your real repo once it’s public.
+- **[Cyber Intel PDF Q&A Assistant](https://github.com/isjustabhi/Cyber-Intel-PDF-Q-A-Assistant)** – CVE/CWE-focused vulnerability intelligence assistant
+- **[PDF QA System](https://github.com/isjustabhi/PDF-QA-System)** – Ask questions over custom PDFs
+- **[Emotion Classification (Tweets)](https://github.com/isjustabhi/Emotion-Classification-Tweets)** – TF-IDF + Logistic Regression emotion classifier
+- **[Skin Disease Classification](https://github.com/isjustabhi/Enhancing-Multi-class-Skin-Disease-Classification)** – Multi-class image classification project
+- **[Parkinson’s Detection System](https://github.com/isjustabhi/Parkinson-s-Disease-Detection-System)** – Detection system project
 
-- **Cybersecurity RAG QA System** – LangChain + Flask + React  
-  https://github.com/isjustabhi/your-repo-name
-
-- **HWS 2025 Dashboard** – Health & Wellness analytics (Tableau + Python)  
-  https://github.com/isjustabhi/your-repo-name
 
 ---
 
