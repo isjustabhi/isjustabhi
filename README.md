@@ -4,14 +4,15 @@
 
 ### 🧠 Data Scientist & AI Engineer · NLP · ML · Python · SQL · IEEE Published Researcher
 
-[![Co-Lab Award](https://img.shields.io/badge/🏆_Co--Lab_Award-Graduate_Capstone_2026-FFD700?style=for-the-badge&labelColor=1a1a2e)](https://www.linkedin.com/in/isjustabhi)
+[![Co-Lab Award](https://img.shields.io/badge/🏆_Co--Lab_Award-Graduate_Capstone_2026-FFD700?style=for-the-badge&labelColor=1a1a2e)](https://www.linkedin.com/posts/isjustabhi_ishowcase2026-universityofarizona-graduatecapstone-activity-7456161030772260864-0gIF)
+[![Distinguished Scholar](https://img.shields.io/badge/🎓_Distinguished_Graduate-Scholar_Spring_2026-9B59B6?style=for-the-badge&labelColor=1a1a2e)](https://www.linkedin.com/posts/isjustabhi_abhiram-varma-nandimandalamcertpdf-activity-7458005986935689216-fxhR)
 [![Portfolio](https://img.shields.io/badge/Portfolio-abhiramvarma.vercel.app-6C63FF?style=for-the-badge&logo=vercel&logoColor=white)](https://abhiramvarma.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-isjustabhi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isjustabhi)
-[![Email](https://img.shields.io/badge/Email-isjustabhi@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:isjustabhi@gmail.com)
+[![Email](https://img.shields.io/badge/Email-abhivn.connect@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhivn.connect@gmail.com)
 [![Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=nhEzRmAAAAAJ&hl=en)
 
-[![MS Data Science](https://img.shields.io/badge/MS_Data_Science-GPA_4.0-FF6F61?style=flat-square)](https://www.arizona.edu/)
-[![NLP Certificate](https://img.shields.io/badge/NLP_Graduate_Certificate-4.0-7B68EE?style=flat-square)](https://www.arizona.edu/)
+[![MS Data Science](https://img.shields.io/badge/MS_Data_Science-GPA_4.0-FF6F61?style=flat-square)](https://www.linkedin.com/posts/isjustabhi_abhiram-varma-nandimandalamcertpdf-activity-7458005986935689216-fxhR)
+[![NLP Certificate](https://img.shields.io/badge/NLP_Graduate_Certificate-4.0-7B68EE?style=flat-square)](https://www.linkedin.com/posts/isjustabhi_abhiram-varma-nandimandalamcertpdf-activity-7458005986935689216-fxhR)
 [![Open to Relocation](https://img.shields.io/badge/Open_to_Relocation-Anywhere_in_the_US-20B2AA?style=flat-square)](https://github.com/isjustabhi)
 
 </div>
@@ -20,8 +21,8 @@
 
 ## 💫 About Me
 
-🎓 **MS Data Science** & **NLP Graduate Certificate** @ University of Arizona · GPA **4.0** · Distinguished Graduate Scholar  
-🏆 **Co-Lab Award** — Graduate Capstone (Applied Research & Industry Impact) · UofA iShowcase Spring 2026  
+🎓 [**MS Data Science**](https://www.linkedin.com/posts/isjustabhi_abhiram-varma-nandimandalamcertpdf-activity-7458005986935689216-fxhR) & **NLP Graduate Certificate** @ University of Arizona · GPA **4.0** · [**Distinguished Graduate Scholar**](https://www.linkedin.com/posts/isjustabhi_abhiram-varma-nandimandalamcertpdf-activity-7458005986935689216-fxhR) (Spring 2026)  
+🏆 [**Co-Lab Award**](https://www.linkedin.com/posts/isjustabhi_ishowcase2026-universityofarizona-graduatecapstone-activity-7456161030772260864-0gIF) — Graduate Capstone (Applied Research & Industry Impact) · UofA iShowcase Spring 2026  
 🧪 **Data Scientist** @ **UofA Department of Psychology** — recently joined after graduation  
 🔧 Building **systematic code review** & reproducible research engineering (PR discipline, testable pipelines)  
 🚀 Prior: campus-scale analytics, production **RAG**, **15+** dashboards, **250K+** record pipelines  
@@ -30,10 +31,10 @@
 
 ---
 
-## 🏆 Award-Winning Capstone — Rural Health Kiosk
+## 🏆 Award-Winning Capstone — [Rural Health Kiosk](https://www.linkedin.com/posts/isjustabhi_ishowcase2026-universityofarizona-graduatecapstone-activity-7456161030772260864-0gIF)
 
-> **Co-Lab Award for Graduate Capstone** — Applied Research & Industry Impact  
-> *University of Arizona · College of Information Science · iShowcase Spring 2026*
+> [**Co-Lab Award for Graduate Capstone**](https://www.linkedin.com/posts/isjustabhi_ishowcase2026-universityofarizona-graduatecapstone-activity-7456161030772260864-0gIF) — Applied Research & Industry Impact  
+> *University of Arizona · College of Information Science · iShowcase Spring 2026 · [View announcement →](https://www.linkedin.com/posts/isjustabhi_ishowcase2026-universityofarizona-graduatecapstone-activity-7456161030772260864-0gIF)*
 
 **Rural Health Kiosk** — AI-powered healthcare for underserved & rural communities via **voice, text, and real-time avatar** interaction.
 
@@ -84,7 +85,7 @@
 
 | | Project | Description |
 |:---:|:---|:---|
-| 🏆 | **Rural Health Kiosk** · *Co-Lab Award 2026* | Dr. Dexter AI kiosk · RAG · MedGemma · Claude · rural health access |
+| 🏆 | **[Rural Health Kiosk](https://www.linkedin.com/posts/isjustabhi_ishowcase2026-universityofarizona-graduatecapstone-activity-7456161030772260864-0gIF)** · *Co-Lab Award 2026* | Dr. Dexter AI kiosk · RAG · MedGemma · Claude · rural health access |
 | 🚑 | **[TriageLens](https://abhiramvarma.vercel.app)** | AI ER triage co-pilot · ESI 1–5 · explainable reasoning · live queue |
 | 💉 | **[DiaBuddy AI](https://abhiramvarma.vercel.app)** | Diabetes RAG companion · ADA/NIH/CDC-grounded chat · glucose & A1C insights |
 | 🧬 | **[Bio Scholar AI](https://abhiramvarma.vercel.app)** | PubMed RAG · paper summaries · entity extraction · clinical relevance |
@@ -198,6 +199,6 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=isjustabhi&color=blueviolet&style=for-the-badge)
 
-*MS Data Science · Co-Lab Capstone Award 2026 · IEEE Published · Distinguished Graduate Scholar*
+*[MS Data Science (4.0)](https://www.linkedin.com/posts/isjustabhi_abhiram-varma-nandimandalamcertpdf-activity-7458005986935689216-fxhR) · [Co-Lab Capstone Award 2026](https://www.linkedin.com/posts/isjustabhi_ishowcase2026-universityofarizona-graduatecapstone-activity-7456161030772260864-0gIF) · IEEE Published · [Distinguished Graduate Scholar](https://www.linkedin.com/posts/isjustabhi_abhiram-varma-nandimandalamcertpdf-activity-7458005986935689216-fxhR)*
 
 </div>
