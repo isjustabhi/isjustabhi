@@ -1,109 +1,182 @@
-# Abhiram Varma Nandimandalam
+<div align="center">
 
-**Data Scientist** @ UofA Department of Psychology · **RAG / NLP** · MS Data Science, University of Arizona (GPA 4.0)
+# Hi, I'm Abhiram 👋
 
-Recently joined after graduation. I ship analytics and AI products at scale—and I’m now building **systematic code review** and engineering standards for research data science (reproducibility, PR discipline, testable pipelines).
+### 🧠 Data Scientist · UofA Psychology · RAG / NLP · Healthcare Analytics
 
-Prior work: institutional healthcare analytics, production RAG, and campus-scale dashboards.
+[![Portfolio](https://img.shields.io/badge/Portfolio-abhiramvarma.vercel.app-6C63FF?style=for-the-badge&logo=vercel&logoColor=white)](https://abhiramvarma.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-isjustabhi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isjustabhi)
+[![Email](https://img.shields.io/badge/Email-isjustabhi@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:isjustabhi@gmail.com)
+[![Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=nhEzRmAAAAAJ&hl=en)
 
-[Portfolio](https://abhiramvarma.vercel.app) · [LinkedIn](https://www.linkedin.com/in/isjustabhi) · [Google Scholar](https://scholar.google.com/citations?user=nhEzRmAAAAAJ&hl=en) · [Email](mailto:isjustabhi@gmail.com)
+[![MS Data Science](https://img.shields.io/badge/MS_Data_Science-GPA_4.0-FF6F61?style=flat-square)](https://www.arizona.edu/)
+[![NLP Certificate](https://img.shields.io/badge/NLP_Graduate_Certificate-4.0-7B68EE?style=flat-square)](https://www.arizona.edu/)
+[![Open to Relocation](https://img.shields.io/badge/Open_to_Relocation-Palo_Alto_·_SF_Bay-20B2AA?style=flat-square)](https://github.com/isjustabhi)
 
----
-
-## Impact at a glance *(prior roles — Housing, Campus Health, PRISM)*
-
-| Area | Highlight |
-|------|-----------|
-| **Population served** | 54,000+ students (Housing, Campus Health, student-care AI) |
-| **Data processed** | 250,000+ structured records · 250,000+ unstructured care notes (NLP) |
-| **Analytics delivery** | 15+ Tableau dashboards · full Power BI suite across 6 health domains |
-| **Forecasting** | Time-series models with **85%+** accuracy for leadership planning |
-| **RAG / retrieval** | **+28%** retrieval accuracy vs baseline (embedding benchmark, PRISM Lab) |
-| **Data quality** | **40%** fewer errors via anomaly monitoring |
-| **Engagement** | **25%** higher survey response (cohort analysis) |
-| **Student-care AI** | **60%** lower wait times · **2,000+** queries in pilot deployment |
+</div>
 
 ---
 
-## Now — UofA Department of Psychology
+## 💫 About Me
 
-**Data Scientist** · *joined after MS graduation*
-
-- Standing up **systematic code review** for lab analytics: PR templates, review checklists, and clear ownership on research code paths
-- Defining standards for **reproducible pipelines** (versioned data steps, documented assumptions, tests on critical transforms)
-- Partnering with researchers to move from ad-hoc notebooks toward **reviewable, maintainable** Python/R workflows
-- *Metrics and study-specific outcomes — updating as projects ship*
-
----
-
-## Before graduation
-
-**University of Arizona — Housing & Residential Life** · Data Analyst / Graduate Assistant  
-Stakeholder-driven analytics for 54,000+ students: Tableau, ETL, forecasting, and NLP on care records.
-
-**Campus Health · PRISM Lab · MeeBuddy** — see [Experience](#experience-selected) below.
+🎓 **MS Data Science** & **NLP Graduate Certificate** @ University of Arizona · GPA **4.0** · Distinguished Graduate Scholar  
+🧪 **Data Scientist** @ **UofA Department of Psychology** — recently joined after graduation  
+🔧 Building **systematic code review** & reproducible research engineering (PR discipline, testable pipelines)  
+🚀 Prior: campus-scale analytics, production **RAG**, **15+** dashboards, **250K+** record pipelines  
+💬 Ask me about **ML, NLP, RAG, Tableau/Power BI, and healthcare analytics**  
+🤝 Open to **research engineering**, **behavioral/health data**, and **GenAI products**
 
 ---
 
-## Featured work (live & production)
+## 📈 Impact Highlights *(prior roles)*
 
-| Project | What it does | Stack |
-|---------|----------------|-------|
-| **[TriageLens](https://abhiramvarma.vercel.app)** | AI emergency triage co-pilot — ESI levels 1–5, explainable reasoning, live queue | React, GPT-4o, Recharts |
-| **[DiaBuddy AI](https://abhiramvarma.vercel.app)** | Diabetes companion — RAG chat grounded in ADA/NIH/CDC, glucose & A1C insights | React, Supabase, pgvector, Gemini |
-| **[Bio Scholar AI](https://abhiramvarma.vercel.app)** | Biomedical literature RAG via PubMed — summaries, entities, clinical relevance | React, RAG, Gemini, PubMed API |
-| **AI Student Care Assistant** | LangChain RAG for health/wellness guidance at institutional scale | Python, GPT-4, Flask, React, PostgreSQL |
-
-*Demo links on [abhiramvarma.vercel.app](https://abhiramvarma.vercel.app). Pin these repos when code is public.*
+<table>
+<tr>
+<td align="center">👥<br><b>54K+</b><br>students served</td>
+<td align="center">📊<br><b>250K+</b><br>records processed</td>
+<td align="center">📉<br><b>85%+</b><br>forecast accuracy</td>
+<td align="center">🎯<br><b>+28%</b><br>RAG retrieval gain</td>
+</tr>
+<tr>
+<td align="center">📋<br><b>15+</b><br>Tableau dashboards</td>
+<td align="center">✅<br><b>40%</b><br>fewer data errors</td>
+<td align="center">📨<br><b>25%</b><br>survey uplift</td>
+<td align="center">⚡<br><b>60%</b><br>lower AI wait times</td>
+</tr>
+</table>
 
 ---
 
-## Research & publications
+## 🏢 Now — Department of Psychology
 
-- **LLM-HyPZ** — Hardware vulnerability discovery with an LLM-assisted hybrid platform (arXiv, 2025) · with Intel researchers  
-- **Multi-Class Skin Disease Classification** — Transfer learning strategies (IEEE IConSCEPT, 2024)
+| | |
+|---|---|
+| 🧠 | **Data Scientist** · joined after MS graduation |
+| 🔍 | **Systematic code review** — PR templates, checklists, ownership on research code |
+| 🔄 | **Reproducible pipelines** — versioned steps, documented assumptions, tests on critical transforms |
+| 📓 | Notebook → **reviewable, maintainable** Python/R workflows with researchers |
+| 📌 | *Study metrics updating as projects ship* |
+
+**Before graduation:** 🏠 UofA Housing & Residential Life (analytics @ 54K scale) · 🏥 Campus Health · 🔬 PRISM Lab · see [Experience ↓](#-experience)
 
 ---
 
-## Experience (selected)
+## 🔥 Featured Projects
+
+| | Project | Description |
+|:---:|:---|:---|
+| 🚑 | **[TriageLens](https://abhiramvarma.vercel.app)** | AI ER triage co-pilot · ESI 1–5 · explainable reasoning · live queue |
+| 💉 | **[DiaBuddy AI](https://abhiramvarma.vercel.app)** | Diabetes RAG companion · ADA/NIH/CDC-grounded chat · glucose & A1C insights |
+| 🧬 | **[Bio Scholar AI](https://abhiramvarma.vercel.app)** | PubMed RAG · paper summaries · entity extraction · clinical relevance |
+| 🎓 | **AI Student Care Assistant** | LangChain RAG · **2,000+** pilot queries · **60%** faster responses |
+
+🌐 **Live demos:** [abhiramvarma.vercel.app](https://abhiramvarma.vercel.app)
+
+---
+
+## 📚 Research & Publications
+
+📄 **LLM-HyPZ** — LLM-assisted hybrid platform for hardware vulnerability discovery (arXiv, 2025 · Intel collaboration)  
+📄 **Multi-Class Skin Disease Classification** — Transfer learning (IEEE IConSCEPT, 2024)
+
+---
+
+## 💼 Experience
 
 | Role | Org | Highlights |
 |------|-----|------------|
-| **Data Scientist** | **UofA Dept. of Psychology** | **Current** — systematic code review, reproducible research engineering (early tenure) |
-| Data Analyst / GA | UofA Housing & Residential Life | 15+ dashboards, ETL at 250K+ scale, 85%+ forecasts, NLP on care records |
-| Healthcare Data Analyst Intern | UofA Campus Health | Power BI suite, 40% error reduction, 25% survey uplift |
-| Graduate Research Assistant (AI/NLP) | UofA PRISM Lab | Production RAG, +28% retrieval, Flask + React, arXiv co-author |
-| Data Analyst | MeeBuddy | Engagement analytics, Tableau KPIs for rural segments |
+| 🟢 **Data Scientist** | **UofA Psychology** | Code review standards · reproducible research engineering |
+| 📊 Data Analyst / GA | Housing & Residential Life | 15+ dashboards · 250K+ ETL · 85%+ forecasts · care-note NLP |
+| 🏥 Healthcare Data Analyst | Campus Health | Power BI suite · 40% error ↓ · 25% survey ↑ |
+| 🔬 Research Assistant (AI/NLP) | PRISM Lab | Production RAG · +28% retrieval · arXiv co-author |
+| 📈 Data Analyst | MeeBuddy | Engagement analytics · rural KPI dashboards |
 
 ---
 
-## Tech stack
+## 💻 Tech Stack
 
-**GenAI & NLP:** LLMs, RAG, LangChain, FAISS, pgvector, prompt engineering, Hugging Face, embeddings  
-**Data & ML:** Python (Pandas, scikit-learn), SQL, R, ETL, cohort analysis, time-series forecasting, anomaly detection  
-**BI:** Tableau (Creator), Power BI (DAX, Power Query)  
-**Engineering:** Flask, FastAPI, React, PostgreSQL, Supabase, AWS (S3, EC2), Git, GitHub PRs, Databricks, PySpark  
-**Research engineering:** Code review, reproducible pipelines, notebook → module refactors  
-**Governance:** HIPAA / FERPA-aware analytics and reporting  
+<div align="center">
 
-**Certifications:** AWS Cloud Practitioner · Microsoft Power BI Data Analyst · Google Data Analytics · Tableau Author
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
----
+</div>
 
-## Open-source & experiments
+**GenAI & NLP** · **Data & ML** · **BI** · **Research engineering** · **HIPAA / FERPA** governance  
 
-- **[MediBERTx](https://github.com/isjustabhi/MediBERTx)** — Clinical NLP (BERT/T5)
-- **[Compositional generative modeling](https://github.com/isjustabhi/compositional-generative-toy)** — Joint & conditional VAEs (`shape_color_*` repos)
-- **[Emotion Classification (Tweets)](https://github.com/isjustabhi/Emotion-Classification-Tweets)** — TF-IDF + logistic regression baseline
-
----
-
-## Collaborate
-
-Open to **research engineering**, **healthcare / behavioral analytics**, **RAG systems**, and **institutional data products**.
-
-Private work (demo on request): cybersecurity RAG / PDF QA · large-scale ETL pipelines.
+🏅 AWS Cloud Practitioner · Microsoft Power BI Data Analyst · Google Data Analytics · Tableau Author
 
 ---
 
-*MS Data Science & NLP Graduate Certificate (4.0) · Distinguished Graduate Scholar · Open to relocation (e.g. Palo Alto, CA)*
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=isjustabhi&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true" height="165" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=isjustabhi&theme=radical&hide_border=false" height="165" alt="GitHub Streak"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=isjustabhi&theme=radical&layout=compact&hide_border=false&langs_count=8" height="165" alt="Top Languages"/>
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=isjustabhi&theme=radical&no-frame=false&no-bg=true&margin-w=4&row=2&column=4)
+
+</div>
+
+---
+
+## 🧪 Open Source & Experiments
+
+- 🔬 **[MediBERTx](https://github.com/isjustabhi/MediBERTx)** — Clinical NLP (BERT/T5)
+- 🎨 **[Compositional generative modeling](https://github.com/isjustabhi/compositional-generative-toy)** — Joint & conditional VAEs
+- 😊 **[Emotion Classification (Tweets)](https://github.com/isjustabhi/Emotion-Classification-Tweets)** — TF-IDF + logistic regression
+
+---
+
+## 🌐 Connect
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-isjustabhi-181717?style=for-the-badge&logo=github)](https://github.com/isjustabhi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/isjustabhi)
+[![Instagram](https://img.shields.io/badge/Instagram-@isjust_abhi-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/isjust_abhi/)
+[![Portfolio](https://img.shields.io/badge/Website-Portfolio-6C63FF?style=for-the-badge&logo=google-chrome)](https://abhiramvarma.vercel.app)
+
+</div>
+
+---
+
+### 🔒 Private Projects *(demo on request)*
+🔐 Cybersecurity RAG / PDF QA · 📺 YouTube ETL pipeline
+
+---
+
+<div align="center">
+
+⭐ **Pin repos for live AI & analytics work** · Profile views:
+
+![Profile Views](https://komarev.com/ghpvc/?username=isjustabhi&color=blueviolet&style=for-the-badge)
+
+*MS Data Science · NLP Certificate · Distinguished Graduate Scholar*
+
+</div>
