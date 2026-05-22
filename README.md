@@ -2,11 +2,11 @@
 
 # Hi, I'm Abhiram 👋
 
-### 🧠 Data Scientist · UofA Department of Psychology
+### 🧠 Data Scientist & AI Engineer · UofA Department of Psychology
 
-*NLP · ML · Python · SQL · Healthcare AI · IEEE Published Researcher*
+*NLP · ML · Python · SQL · RAG · Healthcare AI · IEEE Published Researcher*
 
-[![Current Role](https://img.shields.io/badge/Latest_Role-Data_Scientist-2ECC71?style=for-the-badge&labelColor=1a1a2e)](https://www.linkedin.com/in/isjustabhi)
+[![Current Role](https://img.shields.io/badge/Latest_Role-Data_Scientist_&_AI_Engineer-2ECC71?style=for-the-badge&labelColor=1a1a2e)](https://www.linkedin.com/in/isjustabhi)
 [![Co-Lab Award](https://img.shields.io/badge/🏆_Co--Lab_Award-Graduate_Capstone_2026-FFD700?style=for-the-badge&labelColor=1a1a2e)](https://www.linkedin.com/posts/isjustabhi_ishowcase2026-universityofarizona-graduatecapstone-activity-7456161030772260864-0gIF)
 [![Distinguished Scholar](https://img.shields.io/badge/🎓_Distinguished_Graduate-Scholar_Spring_2026-9B59B6?style=for-the-badge&labelColor=1a1a2e)](https://www.linkedin.com/posts/isjustabhi_abhiram-varma-nandimandalamcertpdf-activity-7458005986935689216-fxhR)
 [![Portfolio](https://img.shields.io/badge/Portfolio-abhiramvarma.vercel.app-6C63FF?style=for-the-badge&logo=vercel&logoColor=white)](https://abhiramvarma.vercel.app)
@@ -24,7 +24,7 @@
 
 ## 💫 About Me
 
-💼 **Latest role: Data Scientist** @ **University of Arizona — Department of Psychology** *(current)*  
+💼 **Latest role: Data Scientist & AI Engineer** @ **University of Arizona — Department of Psychology** *(current)*  
 🔧 Building **systematic code review** & reproducible research engineering (PR discipline, testable pipelines)  
 🎓 [**MS Data Science**](https://www.linkedin.com/posts/isjustabhi_abhiram-varma-nandimandalamcertpdf-activity-7458005986935689216-fxhR) & **NLP Graduate Certificate** · GPA **4.0** · [**Distinguished Graduate Scholar**](https://www.linkedin.com/posts/isjustabhi_abhiram-varma-nandimandalamcertpdf-activity-7458005986935689216-fxhR) (Spring 2026)  
 🏆 [**Co-Lab Award**](https://www.linkedin.com/posts/isjustabhi_ishowcase2026-universityofarizona-graduatecapstone-activity-7456161030772260864-0gIF) — Graduate Capstone · UofA iShowcase Spring 2026  
@@ -70,13 +70,13 @@
 
 ---
 
-## 💼 Latest Role — Data Scientist
+## 💼 Latest Role — Data Scientist & AI Engineer
 
 **University of Arizona · Department of Psychology** · *Current position*
 
 | | |
 |---|---|
-| 🧠 | **Data Scientist** — my latest role after MS graduation |
+| 🧠 | **Data Scientist & AI Engineer** — my latest role after MS graduation |
 | 🔍 | **Systematic code review** — PR templates, checklists, ownership on research code |
 | 🔄 | **Reproducible pipelines** — versioned steps, documented assumptions, tests on critical transforms |
 | 📓 | Notebook → **reviewable, maintainable** Python/R workflows with researchers |
@@ -111,7 +111,7 @@
 
 | Role | Org | Highlights |
 |------|-----|------------|
-| 🟢 **Data Scientist** *(latest)* | **UofA Dept. of Psychology** | **Current** · code review standards · reproducible research engineering |
+| 🟢 **Data Scientist & AI Engineer** *(latest)* | **UofA Dept. of Psychology** | **Current** · code review · reproducible pipelines · research AI systems |
 | 📊 Data Analyst / GA | Housing & Residential Life | 15+ dashboards · 250K+ ETL · 85%+ forecasts · care-note NLP |
 | 🏥 Healthcare Data Analyst | Campus Health | Power BI suite · 40% error ↓ · 25% survey ↑ |
 | 🔬 Research Assistant (AI/NLP) | PRISM Lab | Production RAG · +28% retrieval · arXiv co-author |
