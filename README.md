@@ -2,8 +2,9 @@
 
 # Hi, I'm Abhiram 👋
 
-### 🧠 Data Scientist · UofA Psychology · RAG / NLP · Healthcare Analytics
+### 🧠 Data Scientist & AI Engineer · NLP · ML · Python · SQL · IEEE Published Researcher
 
+[![Co-Lab Award](https://img.shields.io/badge/🏆_Co--Lab_Award-Graduate_Capstone_2026-FFD700?style=for-the-badge&labelColor=1a1a2e)](https://www.linkedin.com/in/isjustabhi)
 [![Portfolio](https://img.shields.io/badge/Portfolio-abhiramvarma.vercel.app-6C63FF?style=for-the-badge&logo=vercel&logoColor=white)](https://abhiramvarma.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-isjustabhi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isjustabhi)
 [![Email](https://img.shields.io/badge/Email-isjustabhi@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:isjustabhi@gmail.com)
@@ -11,7 +12,7 @@
 
 [![MS Data Science](https://img.shields.io/badge/MS_Data_Science-GPA_4.0-FF6F61?style=flat-square)](https://www.arizona.edu/)
 [![NLP Certificate](https://img.shields.io/badge/NLP_Graduate_Certificate-4.0-7B68EE?style=flat-square)](https://www.arizona.edu/)
-[![Open to Relocation](https://img.shields.io/badge/Open_to_Relocation-Palo_Alto_·_SF_Bay-20B2AA?style=flat-square)](https://github.com/isjustabhi)
+[![Open to Relocation](https://img.shields.io/badge/Open_to_Relocation-Anywhere_in_the_US-20B2AA?style=flat-square)](https://github.com/isjustabhi)
 
 </div>
 
@@ -20,11 +21,29 @@
 ## 💫 About Me
 
 🎓 **MS Data Science** & **NLP Graduate Certificate** @ University of Arizona · GPA **4.0** · Distinguished Graduate Scholar  
+🏆 **Co-Lab Award** — Graduate Capstone (Applied Research & Industry Impact) · UofA iShowcase Spring 2026  
 🧪 **Data Scientist** @ **UofA Department of Psychology** — recently joined after graduation  
 🔧 Building **systematic code review** & reproducible research engineering (PR discipline, testable pipelines)  
 🚀 Prior: campus-scale analytics, production **RAG**, **15+** dashboards, **250K+** record pipelines  
 💬 Ask me about **ML, NLP, RAG, Tableau/Power BI, and healthcare analytics**  
 🤝 Open to **research engineering**, **behavioral/health data**, and **GenAI products**
+
+---
+
+## 🏆 Award-Winning Capstone — Rural Health Kiosk
+
+> **Co-Lab Award for Graduate Capstone** — Applied Research & Industry Impact  
+> *University of Arizona · College of Information Science · iShowcase Spring 2026*
+
+**Rural Health Kiosk** — AI-powered healthcare for underserved & rural communities via **voice, text, and real-time avatar** interaction.
+
+| | |
+|---|---|
+| 🤖 | **Dr. Dexter** — virtual assistant for culturally sensitive symptom assessment, triage & personalized care |
+| 🧠 | **RAG** + fine-tuned **MedGemma** + **Claude Opus 4.6** |
+| 🎯 | Bridges the healthcare access gap where it's needed most |
+
+*Team capstone with Ameya Subramanian, Rishinath Enugala, Abhighyan Bommerla, Usha Gourigari, Matthew Qi Lan Thompson · Mentors: Ash Black, Nitika Sharma, PhD, Catherine Brooks*
 
 ---
 
@@ -65,6 +84,7 @@
 
 | | Project | Description |
 |:---:|:---|:---|
+| 🏆 | **Rural Health Kiosk** · *Co-Lab Award 2026* | Dr. Dexter AI kiosk · RAG · MedGemma · Claude · rural health access |
 | 🚑 | **[TriageLens](https://abhiramvarma.vercel.app)** | AI ER triage co-pilot · ESI 1–5 · explainable reasoning · live queue |
 | 💉 | **[DiaBuddy AI](https://abhiramvarma.vercel.app)** | Diabetes RAG companion · ADA/NIH/CDC-grounded chat · glucose & A1C insights |
 | 🧬 | **[Bio Scholar AI](https://abhiramvarma.vercel.app)** | PubMed RAG · paper summaries · entity extraction · clinical relevance |
@@ -85,6 +105,7 @@
 
 | Role | Org | Highlights |
 |------|-----|------------|
+| 🏆 Capstone (Co-Lab Award) | UofA iShowcase 2026 | Rural Health Kiosk · Dr. Dexter · RAG · MedGemma · Claude Opus 4.6 |
 | 🟢 **Data Scientist** | **UofA Psychology** | Code review standards · reproducible research engineering |
 | 📊 Data Analyst / GA | Housing & Residential Life | 15+ dashboards · 250K+ ETL · 85%+ forecasts · care-note NLP |
 | 🏥 Healthcare Data Analyst | Campus Health | Power BI suite · 40% error ↓ · 25% survey ↑ |
@@ -177,6 +198,6 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=isjustabhi&color=blueviolet&style=for-the-badge)
 
-*MS Data Science · NLP Certificate · Distinguished Graduate Scholar*
+*MS Data Science · Co-Lab Capstone Award 2026 · IEEE Published · Distinguished Graduate Scholar*
 
 </div>
