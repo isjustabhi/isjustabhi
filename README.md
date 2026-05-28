@@ -147,16 +147,19 @@
 
 ## 📊 GitHub Analytics
 
+<!-- Widgets are cached in-repo (assets/github-widgets/) and refreshed daily by GitHub Actions.
+     External CDNs often break (503 rate limits, Heroku shutdown, trophy 402). -->
+
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=isjustabhi&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=isjustabhi&theme=radical&hide_border=false" height="165" alt="GitHub Streak"/>
+<img src="assets/github-widgets/stats.svg" height="165" alt="GitHub Stats"/>
+<img src="assets/github-widgets/streak.svg" height="165" alt="GitHub Streak"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=isjustabhi&theme=radical&layout=compact&hide_border=false&langs_count=8" height="165" alt="Top Languages"/>
+<img src="assets/github-widgets/top-langs.svg" height="165" alt="Top Languages"/>
 
 </div>
 
@@ -166,7 +169,7 @@
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=isjustabhi&theme=radical&no-frame=false&no-bg=true&margin-w=4&row=2&column=4)
+<img src="assets/github-widgets/trophies.svg" alt="GitHub Trophies"/>
 
 </div>
 
