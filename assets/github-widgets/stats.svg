@@ -68,7 +68,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 150.20044236602902;
+        stroke-dashoffset: 150.10180633001633;
       }
     }
   
@@ -109,7 +109,7 @@
       <tspan dx="0" class="stat bold">
        Total Commits:
       </tspan>
-      <tspan x="160" data-testid="commits" class="stat">1</tspan>
+      <tspan x="160" data-testid="commits" class="stat">2</tspan>
     </text>
   
     <text class="stagger" style="animation-delay: 0ms" x="25" y="75">
