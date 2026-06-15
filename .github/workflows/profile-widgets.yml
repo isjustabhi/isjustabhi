@@ -1,5 +1,5 @@
 # Refresh profile README images daily so widgets stay visible when
-# public CDNs (github-readme-stats.vercel.app, etc.) rate-limit or return 503/402.
+# public CDNs rate-limit or return 503/402.
 name: Refresh profile widgets
 
 on:
@@ -25,27 +25,40 @@ jobs:
           set -euo pipefail
           mkdir -p assets/github-widgets
 
-          fetch() {
-            url="$1"
-            out="$2"
+          fetch_with_fallback() {
+            out="$1"
+            shift
             echo "Fetching $out"
-            if ! curl -fsSL --retry 3 --retry-delay 5 "$url" -o "$out"; then
-              echo "::warning::Failed to fetch $out — keeping previous file if present"
-              test -s "$out" || exit 1
-            fi
+            for url in "$@"; do
+              if curl -fsSL --retry 3 --retry-delay 5 "$url" -o "$out.tmp"; then
+                if ! grep -qiE 'could not fetch|something went wrong|rate limit|error' "$out.tmp"; then
+                  mv "$out.tmp" "$out"
+                  echo "OK: $url"
+                  return 0
+                fi
+                echo "Bad response from $url"
+              fi
+            done
+            rm -f "$out.tmp"
+            echo "::warning::All sources failed for $out — keeping previous file if present"
+            test -s "$out" || exit 1
           }
 
-          fetch "https://github-stats.vercel.app/api?username=isjustabhi&show_icons=true&theme=radical&hide_border=false" \
-            assets/github-widgets/stats.svg
+          fetch_with_fallback assets/github-widgets/stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=isjustabhi&show_icons=true&theme=radical&hide_border=false" \
+            "https://github-stats.vercel.app/api?username=isjustabhi&show_icons=true&theme=radical&hide_border=false"
 
-          fetch "https://streak-stats.demolab.com/?user=isjustabhi&theme=radical&hide_border=false" \
-            assets/github-widgets/streak.svg
+          fetch_with_fallback assets/github-widgets/streak.svg \
+            "https://streak-stats.demolab.com/?user=isjustabhi&theme=radical&hide_border=false" \
+            "https://github-readme-streak-stats.herokuapp.com/?user=isjustabhi&theme=radical&hide_border=false"
 
-          fetch "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=isjustabhi&theme=radical" \
-            assets/github-widgets/top-langs.svg
+          fetch_with_fallback assets/github-widgets/top-langs.svg \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=isjustabhi&theme=radical&layout=compact&hide_border=false&langs_count=8" \
+            "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=isjustabhi&theme=radical"
 
-          fetch "https://profile-trophy.vercel.app/?username=isjustabhi&theme=radical&no-bg=true&margin-w=4&row=2&column=4" \
-            assets/github-widgets/trophies.svg
+          fetch_with_fallback assets/github-widgets/trophies.svg \
+            "https://profile-trophy.vercel.app/?username=isjustabhi&theme=radical&no-bg=true&margin-w=4&row=2&column=4" \
+            "https://github-profile-trophy.vercel.app/?username=isjustabhi&theme=radical&no-bg=true&margin-w=4&row=2&column=4"
 
       - name: Commit updated widgets
         run: |

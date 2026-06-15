@@ -147,19 +147,19 @@
 
 ## 📊 GitHub Analytics
 
-<!-- Widgets are cached in-repo (assets/github-widgets/) and refreshed daily by GitHub Actions.
-     External CDNs often break (503 rate limits, Heroku shutdown, trophy 402). -->
+<!-- Profile README requires absolute raw.githubusercontent.com URLs (relative paths break on github.com/isjustabhi).
+     SVGs are cached in assets/github-widgets/ and refreshed daily by GitHub Actions. -->
 
 <div align="center">
 
-<img src="assets/github-widgets/stats.svg" height="165" alt="GitHub Stats"/>
-<img src="assets/github-widgets/streak.svg" height="165" alt="GitHub Streak"/>
+<img src="https://raw.githubusercontent.com/isjustabhi/isjustabhi/main/assets/github-widgets/stats.svg" height="165" alt="GitHub Stats"/>
+<img src="https://raw.githubusercontent.com/isjustabhi/isjustabhi/main/assets/github-widgets/streak.svg" height="165" alt="GitHub Streak"/>
 
 </div>
 
 <div align="center">
 
-<img src="assets/github-widgets/top-langs.svg" height="165" alt="Top Languages"/>
+<img src="https://raw.githubusercontent.com/isjustabhi/isjustabhi/main/assets/github-widgets/top-langs.svg" height="165" alt="Top Languages"/>
 
 </div>
 
@@ -169,7 +169,7 @@
 
 <div align="center">
 
-<img src="assets/github-widgets/trophies.svg" alt="GitHub Trophies"/>
+<img src="https://raw.githubusercontent.com/isjustabhi/isjustabhi/main/assets/github-widgets/trophies.svg" alt="GitHub Trophies"/>
 
 </div>
 
