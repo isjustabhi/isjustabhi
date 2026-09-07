@@ -68,7 +68,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 149.35131475165875;
+        stroke-dashoffset: 149.30419086185492;
       }
     }
   
@@ -101,7 +101,7 @@
       <tspan dx="0" class="stat bold">
        Total Stars:
       </tspan>
-      <tspan x="160" data-testid="stars" class="stat">3</tspan>
+      <tspan x="160" data-testid="stars" class="stat">4</tspan>
     </text>
   
     <text class="stagger" style="animation-delay: 0ms" x="25" y="50">
