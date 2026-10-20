@@ -27,14 +27,20 @@ export const experience: ExperienceItem[] = [
     officialNote:
       "Official university directory title is Scientific Analyst. LinkedIn also lists Data Scientist @ University of Arizona | LSCH.",
     summary:
-      "Research staff supporting AI-driven methods, reproducible research workflows, and computational tools for behavioral and health science under faculty supervisor David A. Sbarra.",
+      "Research staff supporting AI-driven methods, reproducible research workflows, and computational tools for behavioral and health science under faculty supervisor David A. Sbarra. Day-to-day work includes a DNA methylation bioinformatics pipeline and internal R Shiny tools for study design and associational analysis.",
     bullets: [
-      "Build AI methods and analytical infrastructure for social connectedness and health research.",
+      "Maintain the lab’s DNA methylation and bioinformatics pipeline for behavioral and health research datasets.",
+      "Build and maintain R Shiny research software: mixed-model power/sensitivity curves for clustered and twin data, and Associational Variable Analysis (AVA).",
       "Convert notebook-style analyses into reviewable Python and R workflows with documented assumptions.",
-      "Maintain research engineering practices around code review, versioned pipelines, and tests on critical transforms.",
+      "Keep research engineering practices around code review, versioned pipelines, and tests on critical transforms.",
       "Public lab tooling includes an AI-assisted systematic review PDF coder used with Claude and CSV export.",
     ],
-    relatedProjects: ["systematic-review-processor"],
+    relatedProjects: [
+      "systematic-review-processor",
+      "sensitivity-analysis",
+      "ava",
+      "methylation-pipeline",
+    ],
     link: "https://psychology.arizona.edu/person/abhiram-nandimandalam",
   },
   {

@@ -192,6 +192,71 @@ export const projects: Project[] = [
     selected: true,
   },
   {
+    slug: "sensitivity-analysis",
+    title: "Sensitivity Analysis",
+    positioning:
+      "R Shiny app for mixed-model power and sensitivity curves on clustered and twin data.",
+    problem:
+      "Lab studies on clustered or twin samples need power and sensitivity curves that match mixed-model assumptions, not a generic calculator.",
+    contribution:
+      "Author of the private LSCH Shiny app. GitHub description: mixed-model power/sensitivity curves using simr and lme4 for clustered/twin data.",
+    summary:
+      "Internal research software. Source is private; demo available on request. Not a public web product.",
+    year: 2026,
+    status: "internal",
+    collaborative: false,
+    tech: ["R", "Shiny", "simr", "lme4"],
+    language: "R",
+    sourcePublic: false,
+    cover: "/images/projects/sensitivity.svg",
+    categories: ["research", "data", "ml"],
+    tier: "featured",
+    selected: true,
+  },
+  {
+    slug: "ava",
+    title: "Associational Variable Analysis",
+    positioning:
+      "R Shiny research software for guided correlation screening and incremental validity.",
+    problem:
+      "Associational analyses in the lab needed a repeatable path from correlation screening to incremental validity, semi-partial R², and bootstrapped indirect effects.",
+    contribution:
+      "Author of the private AVA Shiny application and the related reproducible AVA research-software repository. Source is not public.",
+    summary:
+      "Provides guided correlation screening, incremental validity analysis, semi-partial R² interpretation, and bootstrapped indirect-effect workflows. Internal LSCH tooling.",
+    year: 2026,
+    status: "internal",
+    collaborative: false,
+    tech: ["R", "Shiny", "regression", "bootstrap"],
+    language: "R",
+    sourcePublic: false,
+    cover: "/images/projects/ava.svg",
+    categories: ["research", "data"],
+    tier: "featured",
+    selected: true,
+  },
+  {
+    slug: "methylation-pipeline",
+    title: "Methylation Bioinformatics Pipeline",
+    positioning:
+      "Lab bioinformatics pipeline for DNA methylation processing at LSCH.",
+    problem:
+      "Behavioral and health studies in the lab depend on a maintained methylation and omics processing path, not one-off notebooks.",
+    contribution:
+      "Scientific Analyst responsible for maintaining the DNA methylation bioinformatics pipeline in the current LSCH role. Implementation is internal; there is no public repository.",
+    summary:
+      "Ongoing research-infrastructure work under David A. Sbarra. Details stay internal because the pipeline handles research data.",
+    year: 2026,
+    status: "internal",
+    collaborative: true,
+    tech: ["R", "Python", "bioinformatics", "DNA methylation"],
+    sourcePublic: false,
+    cover: "/images/projects/methylation.svg",
+    categories: ["research", "data", "healthcare"],
+    tier: "featured",
+    selected: true,
+  },
+  {
     slug: "ai-student-care",
     title: "AI Student Care",
     positioning:

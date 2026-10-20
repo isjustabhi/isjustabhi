@@ -22,8 +22,8 @@ export const profile = {
     "Research Engineer",
   ],
   about: [
-    "I work where research methods and product engineering have to share the same standard of evidence. My official role is Scientific Analyst in the Laboratory for Social Connectedness & Health at the University of Arizona, where I help turn behavioral and health questions into reproducible computational workflows.",
-    "That lab work sits beside a public body of applied AI systems: retrieval pipelines, LLM-assisted analysis, healthcare prototypes, and data products that people can actually run. I care less about theatrical demos than about whether a system is inspectable, constrained, and useful under real limits.",
+    "I work where research methods and product engineering have to share the same standard of evidence. My official role is Scientific Analyst in the Laboratory for Social Connectedness & Health at the University of Arizona, where I maintain a DNA methylation bioinformatics pipeline and turn behavioral and health questions into reproducible computational workflows.",
+    "That lab work includes internal R Shiny tools for mixed-model sensitivity analysis and associational variable analysis, alongside a public body of applied AI systems: retrieval pipelines, LLM-assisted analysis, healthcare prototypes, and data products that people can actually run. I care less about theatrical demos than about whether a system is inspectable, constrained, and useful under real limits.",
     "The through-line is simple. I use machine learning and language models to make messy institutional and scientific data usable, then I document the architecture so another researcher or engineer can follow the decisions.",
   ],
   emails: {
@@ -47,6 +47,7 @@ export const profile = {
     arxivHyPZ: "https://arxiv.org/abs/2509.00647",
     osf: "https://osf.io/ydq57/",
     devpost: "https://devpost.com/isjustabhi",
+    personal: "https://isjustabhi.com/",
     site: "https://abhiramvarma.vercel.app",
   },
   education: [

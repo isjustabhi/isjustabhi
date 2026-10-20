@@ -21,7 +21,12 @@ This file separates verified facts from claims that still need Abhiram’s revie
 | GRA Jan 2025–Aug 2025 | LinkedIn; WayUp |
 | MeeBuddy Data Analyst Jan 2023–Aug 2024 | WayUp |
 | EarlyEco backend contributor | GitHub `EarlyEco/be` contributors includes `isjustabhi` |
-| Public repos and live demos | GitHub API, 39 public repositories as of audit |
+| Sensitivity-Analysis (private) | GitHub repo description: Shiny mixed-model power/sensitivity curves (simr + lme4) for clustered/twin data |
+| Associational-Variable-Analysis / ava (private) | GitHub descriptions: Shiny AVA, correlation screening, incremental validity, semi-partial R², bootstrapped indirect effects; “Reproducible AVA research software” |
+| DNA methylation bioinformatics pipeline | Confirmed by Abhiram as current LSCH Scientific Analyst work; no public repository |
+| Personal site listed on GitHub | https://isjustabhi.com/ |
+| GitHub orgs | Includes `@LSCH-UArizona` and `@EarlyEco` |
+| Public repos and live demos | GitHub profile lists public and private work; private repos are not linked from the site |
 
 ## Self-reported metrics awaiting confirmation
 
@@ -53,6 +58,8 @@ These appear on the public GitHub profile biography and/or older portfolio copy.
 
 | Project | Issue |
 | --- | --- |
+| Sensitivity Analysis / AVA | Private repos; described from GitHub blurbs + owner confirmation |
+| Methylation bioinformatics pipeline | Internal LSCH work; implementation not independently inspected |
 | Rural Health Kiosk / Dr. Dexter | No public GitHub repository |
 | LLM-HyPZ application code | Paper only; no public implementation repo under `isjustabhi` |
 | DiaBuddy AI | `https://dia-wise-ai.lovable.app` — confirm still live |

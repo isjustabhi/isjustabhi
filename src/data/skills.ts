@@ -30,6 +30,10 @@ export const skillGroups = [
         evidence: "Systematic review processor, research notebooks, LLM-HyPZ pipeline work",
       },
       {
+        name: "R",
+        evidence: "LSCH Shiny apps (sensitivity analysis, AVA) and methylation pipeline maintenance",
+      },
+      {
         name: "NLP",
         evidence: "NLP graduate certificate; tweet emotion classification; clinical NLP experiments",
       },
@@ -101,7 +105,12 @@ export const skillGroups = [
       },
       {
         name: "Statistical analysis",
-        evidence: "LSCH scientific analyst role; graduate data science training",
+        evidence:
+          "LSCH mixed-model sensitivity (simr, lme4), AVA incremental validity and bootstrapped indirect effects",
+      },
+      {
+        name: "R Shiny",
+        evidence: "Private Sensitivity Analysis and AVA applications for LSCH",
       },
       {
         name: "Visualization",
@@ -115,7 +124,12 @@ export const skillGroups = [
     items: [
       {
         name: "Reproducible pipelines",
-        evidence: "LSCH workflows; systematic-review-processor CLI + UI",
+        evidence:
+          "LSCH DNA methylation bioinformatics pipeline; systematic-review-processor CLI + UI",
+      },
+      {
+        name: "Bioinformatics",
+        evidence: "Maintains the LSCH DNA methylation processing pipeline in the current role",
       },
       {
         name: "Experiment documentation",

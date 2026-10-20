@@ -13,7 +13,7 @@ I build LLM-powered systems, retrieval pipelines, and research tooling that have
 
 ## Now
 
-I am a **Scientific Analyst** in the [Laboratory for Social Connectedness & Health](https://psychology.arizona.edu/person/abhiram-nandimandalam) under David A. Sbarra. The work is AI methods, reproducible pipelines, and computational tools for behavioral and health research.
+I am a **Scientific Analyst** in the [Laboratory for Social Connectedness & Health](https://psychology.arizona.edu/person/abhiram-nandimandalam) under David A. Sbarra. I maintain a DNA methylation bioinformatics pipeline and internal R Shiny tools for mixed-model sensitivity analysis and associational variable analysis, alongside AI methods and reproducible research workflows.
 
 M.S. Data Science, University of Arizona · NLP Graduate Certificate · [Distinguished Graduate Scholar, Spring 2026](https://infosci.arizona.edu/students-and-careers/distinguished-scholars)
 
@@ -28,7 +28,9 @@ M.S. Data Science, University of Arizona · NLP Graduate Certificate · [Disting
 | **[DataLoom](https://github.com/isjustabhi/DataLoom)** | Browser-native AI data pipeline studio | [Live demo](https://data-loom-isjustabhi.vercel.app/) |
 | **[TriageLens](https://github.com/isjustabhi/TRIAGELENS)** | Explainable ESI 1–5 triage co-pilot | [Live demo](https://triagelens.vercel.app) · educational, not clinical |
 | **[Systematic Review Processor](https://github.com/isjustabhi/systematic-review-processor)** | Claude PDF coder for LSCH reviews | CLI + local FastAPI UI |
-| **[AI Student Care](https://github.com/isjustabhi/ai-student-care)** | Campus support prototype for UA students | [Live demo](https://ai-student-care.vercel.app) |
+| **Sensitivity Analysis** | R Shiny mixed-model power/sensitivity curves (`simr` + `lme4`) for clustered/twin data | Private LSCH software |
+| **Associational Variable Analysis** | Shiny AVA: correlation screening, incremental validity, semi-partial R², bootstrapped indirect effects | Private LSCH software |
+| **Methylation bioinformatics pipeline** | DNA methylation processing maintained in the current LSCH role | Internal research infrastructure |
 
 ---
 
@@ -67,10 +69,10 @@ Self-reported analytics outcomes from public bios (15+ dashboards, 250K+ records
 ## Stack in practice
 
 **GenAI** — LLMs, RAG, prompt engineering, embeddings, clustering  
-**ML / NLP** — Python, evaluation, transfer learning  
-**Data** — SQL, ETL, CSV/Excel pipelines, Tableau, Power BI  
-**Product** — React, TypeScript, Next.js, FastAPI, Express  
-**Research engineering** — reproducible pipelines, documentation, nonclinical healthcare boundaries
+**ML / NLP** — Python, R, evaluation, transfer learning  
+**Data** — SQL, ETL, methylation / bioinformatics pipelines, Tableau, Power BI  
+**Product** — React, TypeScript, Next.js, FastAPI, Express, R Shiny  
+**Research engineering** — reproducible pipelines, mixed-model sensitivity, AVA, documentation
 
 ---
 

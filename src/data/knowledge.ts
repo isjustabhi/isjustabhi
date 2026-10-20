@@ -11,14 +11,26 @@ export const knowledgeBase: KnowledgeEntry[] = [
     questions: ["Who is Abhiram?", "Tell me about Abhi"],
     keywords: ["who", "about", "introduce", "abhi", "abhiram", "bio"],
     answer:
-      "Abhiram Varma Nandimandalam (Abhi) is a Scientific Analyst in the Laboratory for Social Connectedness & Health at the University of Arizona Department of Psychology. He is an AI Engineer and Data Scientist working on LLM applications, RAG, healthcare AI prototypes, and reproducible research tooling. Faculty supervisor: David A. Sbarra.",
+      "Abhiram Varma Nandimandalam (Abhi) is a Scientific Analyst in the Laboratory for Social Connectedness & Health at the University of Arizona Department of Psychology. He maintains a DNA methylation bioinformatics pipeline and internal R Shiny tools for sensitivity analysis and associational variable analysis, alongside LLM applications, RAG, and healthcare AI prototypes. Faculty supervisor: David A. Sbarra.",
   },
   {
     id: "role",
     questions: ["What is his current role?"],
-    keywords: ["role", "job", "title", "scientific analyst", "lsch", "current"],
+    keywords: [
+      "role",
+      "job",
+      "title",
+      "scientific analyst",
+      "lsch",
+      "current",
+      "methylation",
+      "bioinformatics",
+      "shiny",
+      "ava",
+      "sensitivity",
+    ],
     answer:
-      "Official title: Scientific Analyst, Laboratory for Social Connectedness & Health, University of Arizona Department of Psychology. LinkedIn also uses Data Scientist @ University of Arizona | LSCH. The university directory is the official source.",
+      "Official title: Scientific Analyst, Laboratory for Social Connectedness & Health, University of Arizona Department of Psychology. Current lab work includes maintaining a DNA methylation bioinformatics pipeline and private R Shiny tools: mixed-model sensitivity analysis (simr + lme4) and Associational Variable Analysis (AVA). LinkedIn also uses Data Scientist @ University of Arizona | LSCH.",
   },
   {
     id: "education",
@@ -46,7 +58,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     questions: ["What are his strongest projects?"],
     keywords: ["project", "portfolio", "github", "demo", "work"],
     answer:
-      "Signature work: Rural Health Kiosk (team capstone), LLM-HyPZ (published research), and DataLoom (public React data pipeline studio). Other public repos with live demos include TriageLens, AI Student Care, HealthMate, DRIFT, ReviewIQ, and the LSCH systematic-review-processor.",
+      "Signature work: Rural Health Kiosk (team capstone), LLM-HyPZ (published research), and DataLoom. LSCH lab software includes a systematic-review processor, a private Shiny sensitivity-analysis app (simr + lme4), private AVA software, and a DNA methylation bioinformatics pipeline. Other public demos include TriageLens, AI Student Care, HealthMate, DRIFT, and ReviewIQ.",
   },
   {
     id: "stack",
