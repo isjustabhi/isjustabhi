@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f4f7fb;
+  --bg-muted: #e8eef6;
+  --surface: #ffffff;
+  --surface-elevated: #ffffff;
+  --line: rgba(15, 23, 42, 0.1);
+  --grid: rgba(15, 23, 42, 0.05);
+  --text: #0f172a;
+  --text-muted: #4b5b70;
+  --text-faint: #7b8aa0;
+  --cyan: #0e7490;
+  --violet: #6d28d9;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #080b12;
+  --bg-muted: #0c111b;
+  --surface: #111827;
+  --surface-elevated: #162033;
+  --line: rgba(244, 247, 251, 0.08);
+  --grid: rgba(69, 214, 255, 0.05);
+  --text: #f4f7fb;
+  --text-muted: #9aa8bc;
+  --text-faint: #6b7a8f;
+  --cyan: #45d6ff;
+  --violet: #8b5cf6;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--cyan) 35%, transparent);
+}
+
+.display {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+.grid-bg {
+  background-image: var(--tw-gradient-stops, none),
+    linear-gradient(to right, var(--grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+  background-size: auto, 56px 56px, 56px 56px;
+}
+
+.focus-ring {
+  @apply outline-none focus-visible:ring-2 focus-visible:ring-signal focus-visible:ring-offset-2 focus-visible:ring-offset-ink;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
