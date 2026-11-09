@@ -1,19 +1,21 @@
+import { BuildIn } from "@/components/ui/BuildIn";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { awards, certifications } from "@/data/awards";
 
 export function Awards() {
   return (
-    <section id="awards" className="border-b border-ink-line py-24">
-      <Container>
+    <section id="awards" className="scroll-mt-24 py-8 sm:py-12">
+      <Container panel>
         <SectionHeading
-          index="05"
+          index="06"
           eyebrow="Recognition"
           title="Awards with sources, not trophies."
         />
-        <div className="mt-12 grid gap-6 lg:grid-cols-2">
+        <div className="mt-12">
           {awards.map((award) => (
-            <article key={award.id} className="rounded-3xl border border-ink-line p-8">
+            <BuildIn key={award.id}>
+            <article className="border-t border-ink-line py-8">
               <p className="text-xs uppercase tracking-[0.2em] text-signal">{award.year}</p>
               <h3 className="display mt-3 text-2xl text-mist">{award.title}</h3>
               <p className="mt-2 text-sm text-mist-muted">{award.org}</p>
@@ -27,20 +29,22 @@ export function Awards() {
                 Source
               </a>
             </article>
+            </BuildIn>
           ))}
         </div>
         <div className="mt-8 grid gap-4 sm:grid-cols-2">
           {certifications.map((cert) => (
+            <BuildIn key={cert.id}>
             <a
-              key={cert.id}
               href={cert.href}
               target="_blank"
               rel="noreferrer"
-              className="rounded-2xl border border-ink-line p-5 hover:border-signal/40"
+              className="block border-t border-ink-line py-5 hover:text-signal"
             >
               <p className="text-sm text-mist">{cert.title}</p>
               <p className="mt-2 text-xs text-mist-faint">{cert.note}</p>
             </a>
+            </BuildIn>
           ))}
         </div>
       </Container>

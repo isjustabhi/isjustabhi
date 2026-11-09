@@ -1,87 +1,55 @@
-![Abhiram Varma Nandimandalam — AI Engineer and Data Scientist](https://raw.githubusercontent.com/isjustabhi/isjustabhi/main/assets/brand/github-header.svg)
+<p align="center">
+  <img src="./assets/brand/github-header.svg" alt="isjustabhi — Abhi" />
+</p>
 
-# Abhiram Varma Nandimandalam
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=400&size=22&duration=3500&pause=1200&color=1F5C52&center=true&vCenter=true&width=680&lines=Hey%2C+I'm+Abhi.;Just+Abhi.+Building+things.;Chasing+ideas%2C+smashing+shuttlecocks." alt="Hey, I'm Abhi." />
+</p>
 
-**AI Engineer & Data Scientist · Applied AI Researcher**  
-Scientific Analyst, Laboratory for Social Connectedness & Health, University of Arizona
+I'm **Abhi** — Abhiram Varma Nandimandalam when a form asks for the long version. I live in Tucson, work in a psychology lab, and keep a public home at **[isjustabhi.com](https://isjustabhi.com)**.
 
-I build LLM-powered systems, retrieval pipelines, and research tooling that have to survive real data — in healthcare prototypes, behavioral science workflows, and published security NLP.
+Outside AI and research, you'll probably find me playing badminton.
 
-[Portfolio](https://abhiramvarma.vercel.app) · [LinkedIn](https://www.linkedin.com/in/isjustabhi) · [Scholar](https://scholar.google.com/citations?user=nhEzRmAAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0006-6061-9624) · [Email](mailto:abhivn.connect@gmail.com)
-
----
-
-## Now
-
-I am a **Scientific Analyst** in the [Laboratory for Social Connectedness & Health](https://psychology.arizona.edu/person/abhiram-nandimandalam) under David A. Sbarra. I maintain a DNA methylation bioinformatics pipeline and internal R Shiny tools for mixed-model sensitivity analysis and associational variable analysis, alongside AI methods and reproducible research workflows.
-
-M.S. Data Science, University of Arizona · NLP Graduate Certificate · [Distinguished Graduate Scholar, Spring 2026](https://infosci.arizona.edu/students-and-careers/distinguished-scholars)
-
----
-
-## Selected work
-
-| Project | What it is | Evidence |
-| --- | --- | --- |
-| **[LLM-HyPZ](https://arxiv.org/abs/2509.00647)** | LLM-assisted hardware vulnerability discovery over 114,836 CVEs | IEEE ICDM 2025 Workshops, third author, [DOI](https://doi.org/10.1109/ICDMW69685.2025.00150) |
-| **Rural Health Kiosk / Dr. Dexter** | Team graduate capstone: RAG + MedGemma + Claude for rural care access | Co-Lab Award, UArizona iShowcase Spring 2026 (team project; source not public) |
-| **[DataLoom](https://github.com/isjustabhi/DataLoom)** | Browser-native AI data pipeline studio | [Live demo](https://data-loom-isjustabhi.vercel.app/) |
-| **[TriageLens](https://github.com/isjustabhi/TRIAGELENS)** | Explainable ESI 1–5 triage co-pilot | [Live demo](https://triagelens.vercel.app) · educational, not clinical |
-| **[Systematic Review Processor](https://github.com/isjustabhi/systematic-review-processor)** | Claude PDF coder for LSCH reviews | CLI + local FastAPI UI |
-| **Sensitivity Analysis** | R Shiny mixed-model power/sensitivity curves (`simr` + `lme4`) for clustered/twin data | Private LSCH software |
-| **Associational Variable Analysis** | Shiny AVA: correlation screening, incremental validity, semi-partial R², bootstrapped indirect effects | Private LSCH software |
-| **Methylation bioinformatics pipeline** | DNA methylation processing maintained in the current LSCH role | Internal research infrastructure |
+<p align="center">
+  <a href="https://isjustabhi.com"><img src="https://img.shields.io/badge/isjustabhi.com-1f5c52?style=for-the-badge" alt="isjustabhi.com" /></a>
+  <a href="https://medium.com/@isjustabhi"><img src="https://img.shields.io/badge/Medium-181512?style=for-the-badge&logo=medium&logoColor=f3efe6" alt="Medium" /></a>
+  <a href="https://www.linkedin.com/in/isjustabhi"><img src="https://img.shields.io/badge/LinkedIn-181512?style=for-the-badge&logo=linkedin&logoColor=f3efe6" alt="LinkedIn" /></a>
+  <a href="mailto:abhivn.connect@gmail.com"><img src="https://img.shields.io/badge/Email-1f5c52?style=for-the-badge" alt="Email" /></a>
+</p>
 
 ---
 
-## Research
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=isjustabhi&show_icons=true&include_all_commits=true&hide_rank=true&hide_border=true&bg_color=f3efe6&title_color=1f5c52&icon_color=1f5c52&text_color=181512&ring_color=1f5c52" alt="GitHub stats for isjustabhi" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=isjustabhi&layout=compact&hide_border=true&bg_color=f3efe6&title_color=1f5c52&text_color=181512" alt="Top languages" />
+</p>
 
-**LLM-HyPZ: Hardware Vulnerability Discovery Using an LLM-Assisted Hybrid Platform for Zero-Shot Knowledge Extraction and Refinement**  
-Yu-Zheng Lin, Sujan Ghimire, **Abhiram Nandimandalam**, et al. · *2025 IEEE ICDM Workshops*, pp. 1268–1273  
-[arXiv:2509.00647](https://arxiv.org/abs/2509.00647) · [DOI](https://doi.org/10.1109/ICDMW69685.2025.00150)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=isjustabhi&hide_border=true&background=f3efe6&ring=1f5c52&fire=1f5c52&currStreakLabel=1f5c52&sideLabels=5c564e&dates=9a9288&currStreakNum=181512&sideNums=181512&stroke=18151218" alt="GitHub streak" />
+</p>
 
-The pipeline classified hardware vs software CVEs, embedded hardware entries with `text-embedding-3-large`, clustered with K-means, and summarized themes. It identified 1,742 hardware-related vulnerabilities and later surfaced 411 of 1,026 CVEs used in MITRE MIHW 2025 analysis.
-
-**Multi-Class Skin Disease Classification: A Study of Transfer Learning Strategies for Deep Learning Models**  
-IEEE IConSCEPT 2024 · [DOI](https://doi.org/10.1109/IConSCEPT61884.2024.10627847)
-
----
-
-## Awards
-
-- **Distinguished Graduate Scholar, Spring 2026** — [College of Information Science](https://infosci.arizona.edu/students-and-careers/distinguished-scholars)
-- **Co-Lab Award, Graduate Capstone** — Rural Health Kiosk, iShowcase Spring 2026 (team-reported; official listing not found at rebuild time)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=isjustabhi&bg_color=f3efe6&color=5c564e&line=1f5c52&point=181512&area=true&area_color=1f5c52&hide_border=true" alt="Contribution graph" />
+</p>
 
 ---
 
-## Experience, briefly
+This season I am a Scientific Analyst in the [Laboratory for Social Connectedness & Health](https://psychology.arizona.edu/person/abhiram-nandimandalam). Methylation pipelines. Shiny tools a PI can click. Retrieval over PDFs instead of another chat window.
 
-- **Scientific Analyst, Data Science** — UA Psychology / LSCH · Jun 2026–present
-- **Graduate Assistant, Data Science** — Housing & Residential Life · Aug 2025–May 2026
-- **Data Analyst** — Campus Health Services · May 2025–Aug 2025
-- **Graduate Research Assistant, AI/NLP** — MITHRA Lab, College of Information Science · Jan 2025–Aug 2025
-- **Data Analyst** — MeeBuddy · Jan 2023–Aug 2024
+If you asked what I make:
 
-Self-reported analytics outcomes from public bios (15+ dashboards, 250K+ records, 85%+ forecast accuracy, and related percentages) are listed on the [portfolio](https://abhiramvarma.vercel.app) with attribution and still need personal confirmation.
+**[LLM-HyPZ](https://arxiv.org/abs/2509.00647)** — IEEE ICDM 2025 Workshops, third author, MITHRA Lab. 114,836 CVE records. 1,742 hardware-related findings. 411 later used in MITRE MIHW 2025 analysis. [DOI](https://doi.org/10.1109/ICDMW69685.2025.00150). The paper is the artifact.
 
----
+**Rural Health Kiosk / Dr. Dexter** — team graduate capstone. Voice, text, avatar. RAG, MedGemma, Claude. Prototype, not a clinic.
 
-## Stack in practice
+**PDF QA (RAG)** — private retrieval over documents, including cybersecurity writeups. Walkthrough on request.
 
-**GenAI** — LLMs, RAG, prompt engineering, embeddings, clustering  
-**ML / NLP** — Python, R, evaluation, transfer learning  
-**Data** — SQL, ETL, methylation / bioinformatics pipelines, Tableau, Power BI  
-**Product** — React, TypeScript, Next.js, FastAPI, Express, R Shiny  
-**Research engineering** — reproducible pipelines, mixed-model sensitivity, AVA, documentation
+Lab software: a [systematic review PDF coder](https://github.com/isjustabhi/systematic-review-processor), plus private Shiny apps. I don't link private repos.
 
----
+I write at [medium.com/@isjustabhi](https://medium.com/@isjustabhi). The long version of the work lives at [isjustabhi.com](https://isjustabhi.com).
 
-## GitHub
-
-<img src="https://raw.githubusercontent.com/isjustabhi/isjustabhi/main/assets/github-widgets/top-langs.svg" height="165" alt="Top languages for isjustabhi" />
-
----
-
-I am open to AI Engineer, Applied Scientist, ML Engineer, Research Engineer, and Data Scientist roles in the United States.
-
-**Let’s collaborate:** [abhivn.connect@gmail.com](mailto:abhivn.connect@gmail.com)
+<p align="center">
+  <a href="https://isjustabhi.com">isjustabhi.com</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:abhivn.connect@gmail.com">abhivn.connect@gmail.com</a>
+</p>

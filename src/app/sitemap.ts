@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: site.url, lastModified: new Date() },
     { url: `${site.url}/projects`, lastModified: new Date() },
     { url: `${site.url}/research`, lastModified: new Date() },
+    { url: `${site.url}/writing`, lastModified: new Date() },
+    { url: `${site.url}/beyond-code`, lastModified: new Date() },
     ...caseStudies,
   ];
 }

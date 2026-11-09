@@ -42,26 +42,6 @@ export const fallbackRepos: RepoCard[] = [
     updatedAt: "2026-09-06T00:00:00Z",
   },
   {
-    name: "DataLoom",
-    description:
-      'DataLoom — AI Data Pipeline Studio. "Weave raw data into analytics-ready insights."',
-    htmlUrl: "https://github.com/isjustabhi/DataLoom",
-    homepage: "https://data-loom-isjustabhi.vercel.app/",
-    language: "JavaScript",
-    stars: 0,
-    updatedAt: "2026-04-24T00:00:00Z",
-  },
-  {
-    name: "TRIAGELENS",
-    description:
-      "AI-powered emergency triage co-pilot that predicts ESI acuity levels with explainable chain-of-thought clinical reasoning.",
-    htmlUrl: "https://github.com/isjustabhi/TRIAGELENS",
-    homepage: "https://triagelens.vercel.app",
-    language: "JavaScript",
-    stars: 0,
-    updatedAt: "2026-04-23T00:00:00Z",
-  },
-  {
     name: "DRIFT",
     description:
       "AI-powered location life report generator — search any city and get real data, vibe scores, and immersive narratives.",
@@ -89,5 +69,23 @@ export const fallbackRepos: RepoCard[] = [
     language: "TypeScript",
     stars: 0,
     updatedAt: "2026-05-23T00:00:00Z",
+  },
+  {
+    name: "VerifyHire",
+    description: "AI-powered E-Verify employer search for OPT, STEM OPT, and H-1B students.",
+    htmlUrl: "https://github.com/isjustabhi/VerifyHire",
+    homepage: "https://verify-hire.vercel.app",
+    language: "TypeScript",
+    stars: 0,
+    updatedAt: "2026-07-08T00:00:00Z",
+  },
+  {
+    name: "Ai-Interview-system",
+    description: "Mock interview coach with JD and resume-conditioned questions.",
+    htmlUrl: "https://github.com/isjustabhi/Ai-Interview-system",
+    homepage: "https://ai4-interview.vercel.app/",
+    language: "TypeScript",
+    stars: 0,
+    updatedAt: "2026-04-27T00:00:00Z",
   },
 ];

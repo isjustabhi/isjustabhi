@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="PDF QA RAG">
+  <rect width="1200" height="720" fill="#f7f4ee"/>
+  <rect x="0" y="0" width="1200" height="1" fill="#1c1917" opacity="0.12"/>
+  <g fill="none" stroke="#0f766e" stroke-width="1.4">
+    <rect x="96" y="120" width="280" height="380"/>
+    <rect x="460" y="180" width="220" height="72"/>
+    <rect x="460" y="276" width="220" height="72"/>
+    <rect x="460" y="372" width="220" height="72"/>
+    <rect x="824" y="210" width="280" height="260"/>
+  </g>
+  <g stroke="#1c1917" stroke-width="1.2" opacity="0.35">
+    <path d="M376 310 H460"/>
+    <path d="M680 310 H824"/>
+    <path d="M570 252 V276"/>
+    <path d="M570 348 V372"/>
+  </g>
+  <text x="120" y="300" fill="#1c1917" font-family="Georgia, serif" font-size="28">PDF</text>
+  <text x="492" y="222" fill="#57534e" font-family="ui-sans-serif, system-ui" font-size="16">chunk</text>
+  <text x="492" y="318" fill="#57534e" font-family="ui-sans-serif, system-ui" font-size="16">retrieve</text>
+  <text x="492" y="414" fill="#57534e" font-family="ui-sans-serif, system-ui" font-size="16">generate</text>
+  <text x="96" y="620" fill="#1c1917" font-family="Georgia, serif" font-size="42">PDF QA · RAG</text>
+</svg>

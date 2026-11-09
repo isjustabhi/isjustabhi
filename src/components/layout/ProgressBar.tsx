@@ -21,7 +21,7 @@ export function ProgressBar() {
       aria-hidden="true"
     >
       <div
-        className="h-full bg-signal"
+        className="h-full bg-mist"
         style={{ width: `${Math.min(progress * 100, 100)}%` }}
       />
     </div>

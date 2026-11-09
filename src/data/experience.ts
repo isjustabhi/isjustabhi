@@ -6,6 +6,7 @@ export type ExperienceItem = {
   start: string;
   end: string;
   current?: boolean;
+  supervisor?: string;
   officialNote?: string;
   summary: string;
   bullets: string[];
@@ -17,61 +18,90 @@ export type ExperienceItem = {
 export const experience: ExperienceItem[] = [
   {
     id: "lsch",
-    role: "Scientific Analyst, Data Science",
+    role: "Scientific Analyst – Data, AI & Bioinformatics",
     organization:
       "University of Arizona · Department of Psychology · Laboratory for Social Connectedness & Health",
     location: "Tucson, AZ",
     start: "Jun 2026",
     end: "Present",
     current: true,
+    supervisor: "Dr. David A. Sbarra, Professor of Psychology and PI",
     officialNote:
-      "Official university directory title is Scientific Analyst. LinkedIn also lists Data Scientist @ University of Arizona | LSCH.",
+      "Title and bullets reconciled from the latest CV/resume. LinkedIn may also list Data Scientist @ University of Arizona | LSCH.",
     summary:
-      "Research staff supporting AI-driven methods, reproducible research workflows, and computational tools for behavioral and health science under faculty supervisor David A. Sbarra. Day-to-day work includes a DNA methylation bioinformatics pipeline and internal R Shiny tools for study design and associational analysis.",
+      "Research staff building statistical software, AI/NLP workflows, and interactive analytics for behavioral science, psychology, and health research under David A. Sbarra.",
     bullets: [
-      "Maintain the lab’s DNA methylation and bioinformatics pipeline for behavioral and health research datasets.",
-      "Build and maintain R Shiny research software: mixed-model power/sensitivity curves for clustered and twin data, and Associational Variable Analysis (AVA).",
-      "Convert notebook-style analyses into reviewable Python and R workflows with documented assumptions.",
-      "Keep research engineering practices around code review, versioned pipelines, and tests on critical transforms.",
-      "Public lab tooling includes an AI-assisted systematic review PDF coder used with Claude and CSV export.",
+      "Lead technical development of Associational Variable Analysis (AVA), an R Shiny research tool for nonexperimental, cross-sectional data — zero-order and covariate-adjusted associations, multiple regression, semi-partial R², incremental validity, and bootstrap-based indirect-association analyses.",
+      "Developed a 12-pattern classification framework across four associational conditions with automated interpretation, configurable thresholds, input validation, and interactive visualizations.",
+      "Designed and deployed a mixed-effects power and sensitivity analysis application using R, simr, and lme4 for hierarchical, clustered, and twin datasets.",
+      "Built PersonaeAI, an LLM-powered synthetic survey research pipeline with Python, Anthropic Claude, Pandas, and the ANES 2024 Pilot dataset for 1,500 respondent profiles.",
+      "Ran human-vs-synthetic survey experiments reporting a 33% reduction in mean total variation distance with politically enriched AI personas versus baseline.",
+      "Independently developed an LLM-assisted systematic literature review platform and expanded literature processing from a 20-paper pilot to 309 research papers.",
+      "Collaborate with academic researchers and quantitative methodologists on reproducibility, validation, and interpretability.",
+    ],
+    metrics: [
+      {
+        label: "Literature scale-up",
+        value: "20 → 309",
+        attribution: "Self-reported on the latest CV/resume",
+      },
+      {
+        label: "Synthetic survey TVD",
+        value: "−33%",
+        attribution: "Self-reported on the latest CV/resume (PersonaeAI)",
+      },
     ],
     relatedProjects: [
-      "systematic-review-processor",
-      "sensitivity-analysis",
+      "personaeai",
       "ava",
+      "sensitivity-analysis",
+      "systematic-review-processor",
       "methylation-pipeline",
     ],
     link: "https://psychology.arizona.edu/person/abhiram-nandimandalam",
   },
   {
+    id: "stealth",
+    role: "Founder",
+    organization: "Stealth Startup",
+    location: "United States",
+    start: "Jun 2026",
+    end: "Present",
+    current: true,
+    summary:
+      "Independent startup focused on technology-driven solutions. Product details stay private while the company is in stealth.",
+    bullets: [
+      "Founded an independent startup focused on developing technology-driven solutions.",
+    ],
+  },
+  {
     id: "housing",
-    role: "Graduate Assistant, Data Science",
-    organization: "University of Arizona · Housing & Residential Life",
+    role: "Graduate Assistant – Data Science",
+    organization:
+      "University of Arizona · Housing & Residential Life (OASI)",
     location: "Tucson, AZ",
     start: "Aug 2025",
     end: "May 2026",
+    supervisor: "Linda Scheu, Director of Organizational Assessment & Strategic Initiatives",
     summary:
-      "Graduate assistant supporting organizational assessment and strategic planning with dashboards, ETL, and institutional analytics.",
+      "Graduate assistant supporting institutional assessment, housing operations, and student-support analytics with dashboards, ETL, and NLP on care records.",
     bullets: [
-      "Designed interactive Tableau dashboards for housing operations and student-support reporting.",
-      "Engineered ETL workflows that moved operational records into analysis-ready tables.",
-      "Supported leadership reporting with Python, SQL, and Tableau Server workflows.",
+      "Developed and maintained 10+ interactive Tableau dashboards for institutional assessment, student engagement, housing operations, and strategic planning, with automated daily refreshes.",
+      "Designed automated reporting workflows that reduced manual reporting effort by approximately 60%.",
+      "Built NLP workflows with Python and TF-IDF to analyze unstructured student-care records and summarize themes related to stress, mental health, and physical well-being.",
+      "Extracted, cleaned, transformed, and integrated datasets from Microsoft SQL Server, SIS, and institutional platforms into scheduled ETL pipelines.",
+      "Collaborated with Housing & Residential Life, Campus Health, and the Dean of Students on dashboards and reports under responsible data-handling practices.",
     ],
     metrics: [
       {
         label: "Dashboards",
-        value: "15+",
-        attribution: "Self-reported in public GitHub profile biography",
+        value: "10+",
+        attribution: "Latest CV/resume",
       },
       {
-        label: "Records processed",
-        value: "250K+",
-        attribution: "Self-reported in public GitHub profile biography",
-      },
-      {
-        label: "Forecast accuracy",
-        value: "85%+",
-        attribution: "Self-reported in public GitHub profile biography",
+        label: "Reporting effort",
+        value: "−60%",
+        attribution: "Self-reported on the latest CV/resume",
       },
     ],
     relatedProjects: ["residence-hall-programming"],
@@ -83,48 +113,41 @@ export const experience: ExperienceItem[] = [
     location: "Tucson, AZ",
     start: "May 2025",
     end: "Aug 2025",
+    supervisor: "Rachel Abraham, MPH, Evaluation Manager",
     summary:
-      "Healthcare data analyst intern building Power BI reporting for campus clinical and utilization data.",
+      "Healthcare data analyst supporting evaluation of student health programs through analytical datasets, dashboards, and reports.",
     bullets: [
-      "Designed a Power BI dashboard suite covering demographics, mental health, AOD, physical health, sexual health, and utilization.",
-      "Built end-to-end pipelines from raw extracts to production dashboards used by Campus Health staff.",
+      "Designed interactive Tableau and Power BI dashboards covering utilization, mental health, AOD, program participation, and student health trends.",
+      "Contributed to survey reporting improvements associated with a reported 25% increase in survey response rates.",
+      "Ran cohort comparisons, EDA, and trend assessments in Python and SQL to evaluate health-program outcomes.",
+      "Integrated assessment, survey, and health-information sources with cleaning, consistency checks, and validation under institutional privacy procedures.",
     ],
     metrics: [
       {
-        label: "Data error reduction",
-        value: "40%",
-        attribution: "Self-reported in public GitHub profile biography",
-      },
-      {
         label: "Survey engagement",
         value: "+25%",
-        attribution: "Self-reported in public GitHub profile biography",
+        attribution: "Self-reported on the latest CV/resume",
       },
     ],
   },
   {
     id: "mithra-gra",
-    role: "Graduate Research Assistant, AI / NLP",
+    role: "Graduate Research Assistant",
     organization:
       "University of Arizona · MITHRA Lab · College of Information Science",
     location: "Tucson, AZ",
-    start: "Jan 2025",
+    start: "Aug 2024",
     end: "Aug 2025",
+    supervisor:
+      "Dr. Rozhin Yasaei, Assistant Professor and Director, MITHRA Lab",
     summary:
-      "Graduate research assistant in MITHRA Lab on LLM-assisted hardware vulnerability discovery, contributing to LLM-HyPZ, later published at IEEE ICDM 2025 Workshops.",
+      "Graduate research assistant on LLM-assisted hardware vulnerability discovery, contributing to LLM-HyPZ (IEEE ICDMW 2025) and related LLM4Sec workshop work.",
     bullets: [
-      "Third author on LLM-HyPZ, an LLM-assisted hybrid pipeline for zero-shot hardware CVE discovery and thematic refinement.",
-      "Worked with a 2021–2024 CVE corpus of 114,836 entries; the paper reports 1,742 hardware-related vulnerabilities and five recurring themes.",
-      "Supported data preprocessing, pipeline organization, prompt-driven classification, and experimental coordination with faculty collaborators.",
-      "The published pipeline later surfaced 411 of 1,026 CVEs used in downstream MITRE MIHW 2025 analysis, according to the paper.",
-    ],
-    metrics: [
-      {
-        label: "RAG retrieval improvement",
-        value: "+28%",
-        attribution:
-          "Self-reported in public GitHub profile biography; not a numbered claim in the LLM-HyPZ paper",
-      },
+      "Contributed to LLM-HyPZ, applying LLMs and information retrieval to hardware cybersecurity vulnerability discovery over 114,836 CVE records (2021–2024).",
+      "Supported large-scale preprocessing, dataset organization, experimental coordination, RAG/embedding experimentation, and prompt-driven classification.",
+      "Supported research contributing evidence to the MITRE 2025 Most Important Hardware Weaknesses initiative.",
+      "Co-authored the IEEE ICDMW 2025 paper and contributed to research presented at the ICDM 2025 LLM4Sec Workshop.",
+      "Collaborated with interdisciplinary researchers, including contributors affiliated with Intel, on project development and documentation.",
     ],
     relatedProjects: ["llm-hypz"],
     link: "https://sites.arizona.edu/yasaei/people/",
@@ -133,14 +156,15 @@ export const experience: ExperienceItem[] = [
     id: "meebuddy",
     role: "Data Analyst",
     organization: "MeeBuddy · Rural India's Digital Buddy",
-    location: "India",
+    location: "Remote · India",
     start: "Jan 2023",
-    end: "Aug 2024",
+    end: "Jul 2024",
     summary:
       "Data analyst supporting engagement analytics and rural KPI dashboards for a digital companion product.",
     bullets: [
-      "Built engagement analytics and rural KPI dashboards used to monitor product usage.",
-      "Supported reporting for a rural-focused digital product before graduate study in the United States.",
+      "Analyzed user engagement, service adoption, and platform utilization across rural segments with Python, SQL, and EDA.",
+      "Built interactive Tableau dashboards tracking activity, engagement trends, and digital-service adoption.",
+      "Translated segment insights into recommendations supporting digital-service access in rural and underserved communities.",
     ],
   },
 ];

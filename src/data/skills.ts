@@ -1,71 +1,97 @@
 export const skillGroups = [
   {
     id: "genai",
-    title: "GenAI",
+    title: "Generative AI & NLP",
     items: [
       {
         name: "Large language models",
-        evidence: "LLM-HyPZ zero-shot classification; TriageLens and Drift GPT/Claude apps",
+        evidence: "PersonaeAI (Claude); LLM-HyPZ; systematic review coder; private PDF QA",
       },
       {
-        name: "RAG",
-        evidence: "Rural Health Kiosk (team); AI Student Care resource grounding; DiaBuddy described as RAG",
+        name: "RAG & semantic retrieval",
+        evidence: "LLM-HyPZ RAG/embedding work; private PDF QA; Rural Health Kiosk (team)",
       },
       {
         name: "Prompt engineering",
-        evidence: "LLM-HyPZ classification and cluster summarization prompts; systematic-review-processor coding prompt",
+        evidence: "LLM-HyPZ classification/summarization; systematic-review configurable prompts",
       },
       {
-        name: "Embeddings & clustering",
-        evidence: "OpenAI text-embedding-3-large (3072-d) + K-means in LLM-HyPZ",
+        name: "Vector embeddings",
+        evidence: "OpenAI embeddings + clustering in LLM-HyPZ; resume lists vector embeddings / semantic retrieval",
+      },
+      {
+        name: "Classical NLP",
+        evidence: "TF-IDF on Housing student-care records; NLP graduate certificate",
       },
     ],
   },
   {
-    id: "ml",
-    title: "Machine Learning",
+    id: "stats",
+    title: "Statistics & Modeling",
     items: [
       {
-        name: "Python",
-        evidence: "Systematic review processor, research notebooks, LLM-HyPZ pipeline work",
+        name: "Mixed-effects models",
+        evidence: "LSCH power/sensitivity Shiny app with simr and lme4",
       },
       {
-        name: "R",
-        evidence: "LSCH Shiny apps (sensitivity analysis, AVA) and methylation pipeline maintenance",
+        name: "Associational methods",
+        evidence: "AVA: semi-partial R², incremental validity, bootstrap indirect associations, 12-pattern framework",
       },
       {
-        name: "NLP",
-        evidence: "NLP graduate certificate; tweet emotion classification; clinical NLP experiments",
+        name: "Power & sensitivity analysis",
+        evidence: "Simulation-based evaluation for hierarchical, clustered, and twin datasets",
       },
       {
-        name: "Transfer learning",
-        evidence: "IConSCEPT 2024 VGG19 / ResNet50 skin-disease study",
-      },
-      {
-        name: "Model evaluation",
-        evidence: "LLM-HyPZ validation accuracy; IConSCEPT reported accuracies",
+        name: "Hypothesis testing & regression",
+        evidence: "Listed on latest CV; used across LSCH and campus analytics roles",
       },
     ],
   },
   {
     id: "data-eng",
-    title: "Data Engineering",
+    title: "Programming & Data",
     items: [
       {
-        name: "SQL",
-        evidence: "Campus Health and Housing analytics roles; HealthMate PostgreSQL",
+        name: "Python",
+        evidence: "PersonaeAI, systematic-review-processor, Housing NLP, research pipelines",
       },
       {
-        name: "ETL / preprocessing",
-        evidence: "Housing operational ETL; DataLoom ingest-refine-enrich-deploy pipeline",
+        name: "R",
+        evidence: "AVA and sensitivity Shiny apps; LSCH statistical workflows",
       },
       {
-        name: "CSV / Excel pipelines",
-        evidence: "DataLoom PapaParse + SheetJS client pipeline",
+        name: "SQL / Microsoft SQL Server",
+        evidence: "Housing & Campus Health ETL from SQL Server, SIS, and institutional platforms",
       },
       {
-        name: "Research data tooling",
-        evidence: "systematic-review-processor JSON/CSV export and change log",
+        name: "ETL pipelines",
+        evidence: "Automated cleaning, QA, validation, and scheduled reporting for Housing OASI",
+      },
+      {
+        name: "Pandas / NumPy",
+        evidence: "Listed on latest CV; used in PersonaeAI and analytics workflows",
+      },
+    ],
+  },
+  {
+    id: "viz",
+    title: "Visualization & Apps",
+    items: [
+      {
+        name: "Tableau",
+        evidence: "10+ Housing dashboards; Campus Health; MeeBuddy rural KPIs",
+      },
+      {
+        name: "Power BI",
+        evidence: "Campus Health dashboards; Microsoft Power BI Data Analyst Associate",
+      },
+      {
+        name: "R Shiny",
+        evidence: "Private AVA and Sensitivity Analysis applications for LSCH",
+      },
+      {
+        name: "Streamlit / Plotly",
+        evidence: "PersonaeAI research dashboards for distributions and agreement",
       },
     ],
   },
@@ -85,37 +111,6 @@ export const skillGroups = [
         name: "Python APIs",
         evidence: "FastAPI systematic-review-processor; EarlyEco backend contributor",
       },
-      {
-        name: "Node / Express",
-        evidence: "HealthMate and ReviewIQ backends",
-      },
-    ],
-  },
-  {
-    id: "analytics",
-    title: "Analytics",
-    items: [
-      {
-        name: "Power BI",
-        evidence: "Campus Health dashboard suite; Microsoft certification",
-      },
-      {
-        name: "Tableau",
-        evidence: "Housing GA work; public Tableau profile",
-      },
-      {
-        name: "Statistical analysis",
-        evidence:
-          "LSCH mixed-model sensitivity (simr, lme4), AVA incremental validity and bootstrapped indirect effects",
-      },
-      {
-        name: "R Shiny",
-        evidence: "Private Sensitivity Analysis and AVA applications for LSCH",
-      },
-      {
-        name: "Visualization",
-        evidence: "Recharts in DataLoom, Drift, TriageLens, ReviewIQ",
-      },
     ],
   },
   {
@@ -123,25 +118,20 @@ export const skillGroups = [
     title: "Research Engineering",
     items: [
       {
-        name: "Reproducible pipelines",
-        evidence:
-          "LSCH DNA methylation bioinformatics pipeline; systematic-review-processor CLI + UI",
+        name: "Reproducible research software",
+        evidence: "AVA, sensitivity analysis, PersonaeAI, systematic-review-processor",
       },
       {
         name: "Bioinformatics",
-        evidence: "Maintains the LSCH DNA methylation processing pipeline in the current role",
+        evidence: "Current LSCH title includes bioinformatics; DNA methylation pipeline maintained in role",
       },
       {
-        name: "Experiment documentation",
-        evidence: "IEEE papers; case-study architecture notes",
+        name: "Human-in-the-loop evaluation",
+        evidence: "PersonaeAI human-vs-synthetic experiments; LLM-HyPZ expert-guided prompting",
       },
       {
-        name: "Human-in-the-loop review",
-        evidence: "LLM-HyPZ expert-guided prompting; PDF coding change log",
-      },
-      {
-        name: "Responsible AI disclaimers",
-        evidence: "Healthcare prototypes labeled nonclinical across repos",
+        name: "Responsible data handling",
+        evidence: "Campus Health and Housing work under institutional privacy procedures",
       },
     ],
   },

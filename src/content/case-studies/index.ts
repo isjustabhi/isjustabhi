@@ -230,104 +230,85 @@ export const caseStudies: Record<string, CaseStudy> = {
     classification:
       "Peer-reviewed research experiment and data-mining framework. Not a commercial product.",
   },
-  dataloom: {
-    slug: "dataloom",
-    eyebrow: "Public source · deployed Vite demo",
+  "pdf-qa-rag": {
+    slug: "pdf-qa-rag",
+    eyebrow: "Private RAG system · demo on request",
     problem:
-      "A spreadsheet is not a pipeline. Analysts still spend the first hour of a dataset on nulls, types, chart choices, and a handoff script someone else can rerun.",
+      "PDFs are the native format of papers, reports, and security writeups, and they are a poor interface for asking a precise question. Unconstrained chat over a document invents citations. A retrieval-augmented path is the minimum for answers that can be checked.",
     context:
-      "DataLoom Studio is a single-page Vite + React application. There is no backend. Files stay in the browser. OpenAI Chat Completions are called from the client for refine and enrich suggestions. The live demo is a prototype for analysts, not a governed enterprise ETL platform.",
+      "This system was previously listed on the public GitHub profile as a private cybersecurity RAG / PDF QA project, available as a demo on request. The repository is not public, so this case study describes the retrieval pattern rather than an invented product stack.",
     role:
-      "Sole public GitHub author (isjustabhi/DataLoom). Product design, pipeline UX, client-side profiling, and export generation.",
+      "Author of a private PDF question-answering system using retrieval-augmented generation. Individual library choices are not published.",
     architecture: {
-      caption: "Four-stage client pipeline from the repository README",
+      caption: "RAG pattern used for PDF question answering",
       nodes: [
         {
-          id: "ingest",
-          label: "Ingest",
-          detail: "CSV / XLSX / XLS up to 10 MB via PapaParse and SheetJS",
+          id: "pdf",
+          label: "PDF ingest",
+          detail: "Document upload and text extraction from PDF pages",
         },
         {
-          id: "profile",
-          label: "Profile",
-          detail: "Nulls, types, unique values, numeric and string summaries in-browser",
+          id: "chunk",
+          label: "Chunking",
+          detail: "Split long documents into retrievable passages",
         },
         {
-          id: "refine",
-          label: "Refine",
-          detail: "OpenAI proposes transforms; JavaScript applies them locally",
+          id: "embed",
+          label: "Embeddings + index",
+          detail: "Vector search over passages instead of stuffing the full PDF into a prompt",
         },
         {
-          id: "enrich",
-          label: "Enrich",
-          detail: "KPIs, Recharts, insights, anomalies, generated PySpark-style code",
+          id: "retrieve",
+          label: "Retrieve",
+          detail: "Select the passages most relevant to the question",
         },
         {
-          id: "deploy",
-          label: "Deploy / export",
-          detail: "Downloadable CSV, Markdown report, and Python pipeline script",
+          id: "generate",
+          label: "Grounded generation",
+          detail: "LLM answers from retrieved context, including cybersecurity PDFs",
         },
       ],
-      note: "Taken from the public README and described stack. No invented microservices.",
+      note: "Architecture is the standard RAG loop. Specific vendors and index software are not claimed because the repo is private.",
     },
-    technologies: [
-      "React 18",
-      "Vite 5",
-      "Tailwind CSS 3",
-      "Recharts",
-      "PapaParse",
-      "SheetJS / XLSX",
-      "OpenAI Chat Completions via fetch",
-    ],
+    technologies: ["Python", "RAG", "LLMs", "PDF extraction", "embeddings", "vector retrieval"],
     decisions: [
       {
-        title: "No backend on purpose",
-        body: "Keeping transforms in the browser avoids uploading sensitive CSVs to a custom server. The cost is that the OpenAI key currently lives in a Vite env var, which is visible to the client.",
+        title: "Retrieve before generating",
+        body: "The point of PDF QA is citation to a passage. Retrieval is the product, not a chat skin.",
       },
       {
-        title: "Four named stages",
-        body: "Ingest → Refine → Enrich → Deploy is a teaching architecture. It makes the product legible in a demo without hiding the work behind a single chat box.",
+        title: "Keep the system private",
+        body: "Cybersecurity and research PDFs are a poor fit for a public demo with a client-side API key.",
       },
       {
-        title: "Export a script, not only a chart",
-        body: "A cleaned CSV plus a generated pipeline file is closer to how analysts actually hand off work.",
+        title: "Ground answers in retrieved text",
+        body: "If a passage is not retrieved, the system should not invent a page number.",
       },
     ],
     challenges: [
       {
-        title: "Secret handling",
-        body: "VITE_OPENAI_API_KEY is a frontend secret. That is acceptable for a personal demo and unacceptable for a company deployment. A future version should proxy the model call.",
+        title: "Layout-heavy PDFs",
+        body: "Tables, two-column papers, and scanned pages break naive extraction. Chunk quality dominates model choice.",
       },
       {
-        title: "Ten megabyte ceiling",
-        body: "Browser profiling will not replace Spark. The product is honest about file size and should stay that way.",
-      },
-      {
-        title: "Model suggestions versus correctness",
-        body: "LLM-proposed transforms can be wrong. Local application of transforms is good; automatic trust of the proposal is not.",
+        title: "Closed source",
+        body: "Without a public repo, recruiters should ask for a walkthrough rather than infer a production deployment.",
       },
     ],
     results: [
       {
-        title: "Working public demo",
-        body: "https://data-loom-isjustabhi.vercel.app/ with source at github.com/isjustabhi/DataLoom.",
-      },
-      {
-        title: "Complete documented path",
-        body: "README covers stack, env, features, and Vercel deployment. This is one of the few public repos where the architecture can be inspected without a paper.",
+        title: "Private demo path",
+        body: "Listed publicly as a cybersecurity RAG / PDF QA system available on request.",
       },
     ],
     learned: [
-      "Productized data science is often UX around profiling and exports, not a new algorithm.",
-      "Client-side pipelines are a privacy feature and a security footgun at the same time.",
-      "A four-stage navigator is a better demo than a wall of notebooks.",
+      "RAG is an evaluation problem: retrieval hit-rate matters more than prompt tone.",
+      "PDF QA fails first at extraction, then at chunk boundaries, then at the model.",
     ],
     improvements: [
-      "Move model calls behind a server route so keys never ship to the browser.",
-      "Add tests around transform application and type inference.",
-      "Support parquet and a sampled preview for files above 10 MB.",
+      "Publish an architecture README and a non-sensitive evaluation set.",
+      "Measure groundedness: answer supported by retrieved spans.",
     ],
-    classification:
-      "Deployed personal demo / prototype. Not an enterprise data platform.",
+    classification: "Private prototype. Demo on request. Not a public product.",
   },
 };

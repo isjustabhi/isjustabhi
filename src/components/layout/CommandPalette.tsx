@@ -12,6 +12,8 @@ const commands = [
     group: "Navigate",
   })),
   { href: "/research", label: "Research", group: "Navigate" },
+  { href: "/writing", label: "Writing", group: "Navigate" },
+  { href: "/beyond-code", label: "Beyond the code", group: "Navigate" },
   ...projects.map((project) => ({
     href: project.caseStudy ?? `/projects#${project.slug}`,
     label: project.title,
@@ -32,8 +34,13 @@ export function CommandPalette() {
       }
       if (event.key === "Escape") setOpen(false);
     };
+    const onOpen = () => setOpen(true);
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    window.addEventListener("isjustabhi:palette", onOpen);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      window.removeEventListener("isjustabhi:palette", onOpen);
+    };
   }, []);
 
   const results = useMemo(() => {
@@ -45,14 +52,14 @@ export function CommandPalette() {
 
   return (
     <div
-      className="fixed inset-0 z-[80] bg-black/50 p-4 backdrop-blur-sm"
+      className="fixed inset-0 z-[200] bg-black/50 p-4 backdrop-blur-sm"
       onClick={() => setOpen(false)}
     >
       <div
         role="dialog"
         aria-modal="true"
         aria-label="Command palette"
-        className="mx-auto mt-[12vh] max-w-lg overflow-hidden rounded-2xl border border-ink-line bg-ink-surface shadow-glow"
+        className="glass-panel mx-auto mt-[12vh] max-w-lg overflow-hidden rounded-2xl border border-ink-line shadow-glow"
         onClick={(event) => event.stopPropagation()}
       >
         <input

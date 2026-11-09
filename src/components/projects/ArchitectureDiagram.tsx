@@ -10,7 +10,7 @@ export function ArchitectureDiagram({
   note: string;
 }) {
   return (
-    <figure className="overflow-hidden rounded-3xl border border-ink-line bg-ink-surface">
+    <figure className="overflow-hidden rounded-3xl border border-ink-line">
       <figcaption className="border-b border-ink-line px-5 py-4 text-sm text-mist-muted">
         {caption}
       </figcaption>

@@ -28,7 +28,7 @@ const config: Config = {
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
       },
       maxWidth: {
-        site: "72rem",
+        site: "80rem",
       },
       boxShadow: {
         glow: "0 0 0 1px color-mix(in srgb, var(--cyan) 28%, transparent), 0 18px 50px -24px color-mix(in srgb, var(--cyan) 40%, transparent)",

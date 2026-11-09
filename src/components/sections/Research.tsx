@@ -1,5 +1,6 @@
 "use client";
 
+import { BuildIn } from "@/components/ui/BuildIn";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { publications } from "@/data/publications";
@@ -10,8 +11,8 @@ export function Research() {
   const [copied, setCopied] = useState<string | null>(null);
 
   return (
-    <section id="research" className="border-b border-ink-line py-24">
-      <Container>
+    <section id="research" className="scroll-mt-24 py-8 sm:py-12">
+      <Container panel>
         <SectionHeading
           index="04"
           eyebrow="Research"
@@ -20,9 +21,9 @@ export function Research() {
         />
         <div className="mt-12 grid gap-6">
           {publications.map((pub) => (
+            <BuildIn key={pub.id}>
             <article
-              key={pub.id}
-              className="rounded-3xl border border-ink-line bg-ink-surface p-6 sm:p-8"
+              className="border-t border-ink-line py-10"
             >
               <div className="flex flex-wrap items-center gap-3 text-[11px] uppercase tracking-[0.18em] text-signal">
                 <span>{pub.year}</span>
@@ -75,6 +76,7 @@ export function Research() {
                 </button>
               </div>
             </article>
+            </BuildIn>
           ))}
         </div>
       </Container>

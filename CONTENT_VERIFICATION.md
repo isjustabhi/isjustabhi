@@ -58,6 +58,7 @@ These appear on the public GitHub profile biography and/or older portfolio copy.
 
 | Project | Issue |
 | --- | --- |
+| PDF QA / RAG | Previously listed as private “Cybersecurity RAG / PDF QA”; demo on request; source not public |
 | Sensitivity Analysis / AVA | Private repos; described from GitHub blurbs + owner confirmation |
 | Methylation bioinformatics pipeline | Internal LSCH work; implementation not independently inspected |
 | Rural Health Kiosk / Dr. Dexter | No public GitHub repository |
@@ -90,11 +91,11 @@ Site policy: official directory title plus a broader headline supported by the w
 
 ## Security notes
 
-- DataLoom and SleepLens use `VITE_OPENAI_API_KEY` (browser-exposed).
+- SleepLens uses `VITE_OPENAI_API_KEY` (browser-exposed). DataLoom is no longer listed on the site.
 - DRIFT asks for an API key in the UI and keeps it in React state.
 - Do not copy secrets from any repository into this portfolio.
 - No GitHub token is used in frontend code.
 
 ## Healthcare disclaimers required
 
-TriageLens, HealthMate, SleepLens, AI Student Care, Rural Health Kiosk, DiaBuddy, EarlyEco, and the skin-disease paper are nonclinical prototypes or research experiments.
+HealthMate, SleepLens, AI Student Care, Rural Health Kiosk, DiaBuddy, EarlyEco, and the skin-disease paper are nonclinical prototypes or research experiments. TriageLens was removed from the site at the owner’s request.

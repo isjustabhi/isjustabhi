@@ -29,10 +29,10 @@ export default function ProjectsPage() {
   }, [filter, query]);
 
   return (
-    <div className="py-20">
-      <Container>
-        <p className="text-xs uppercase tracking-[0.22em] text-signal">Archive</p>
-        <h1 className="display mt-4 text-4xl text-mist sm:text-6xl">All public work.</h1>
+    <div className="py-28">
+      <Container panel>
+        <p className="text-[11px] uppercase tracking-[0.28em] text-signal">Archive</p>
+        <h1 className="display mt-6 text-5xl text-mist sm:text-7xl">All public work.</h1>
         <p className="mt-4 max-w-2xl text-mist-muted">
           Search and filter the inspectable record. Prototype, research, and demo statuses are
           explicit.
@@ -46,7 +46,7 @@ export default function ProjectsPage() {
                 onClick={() => setFilter(item.id)}
                 className={`rounded-full border px-3 py-1.5 text-xs uppercase tracking-[0.14em] ${
                   filter === item.id
-                    ? "border-signal text-signal"
+                    ? "border-mist text-mist"
                     : "border-ink-line text-mist-muted"
                 }`}
               >

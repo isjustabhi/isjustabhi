@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 
 export default function ResearchPage() {
   return (
-    <div className="pt-16">
-      <Container>
-        <p className="text-xs uppercase tracking-[0.22em] text-signal">Publications</p>
-        <h1 className="display mt-4 max-w-3xl text-4xl text-mist sm:text-6xl">
+    <div className="pt-28">
+      <Container panel>
+        <p className="text-[11px] uppercase tracking-[0.28em] text-signal">Publications</p>
+        <h1 className="display mt-6 max-w-3xl text-5xl text-mist sm:text-7xl">
           Papers with DOIs, not slide titles.
         </h1>
       </Container>

@@ -1,15 +1,22 @@
+import { BuildIn } from "@/components/ui/BuildIn";
 import { cn } from "@/lib/utils";
 
 export function Container({
   children,
   className,
+  panel,
 }: {
   children: React.ReactNode;
   className?: string;
+  panel?: boolean;
 }) {
-  return (
-    <div className={cn("mx-auto w-full max-w-site px-5 sm:px-8", className)}>
-      {children}
-    </div>
-  );
+  if (panel) {
+    return (
+      <div className="mx-auto w-full max-w-site px-4 sm:px-6">
+        <BuildIn className={cn("panel p-8 md:p-12", className)}>{children}</BuildIn>
+      </div>
+    );
+  }
+
+  return <div className={cn("mx-auto w-full max-w-site px-5 sm:px-8", className)}>{children}</div>;
 }

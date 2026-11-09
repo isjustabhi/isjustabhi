@@ -1,3 +1,4 @@
+import { CinematicIntro } from "@/components/layout/CinematicIntro";
 import { CommandPalette } from "@/components/layout/CommandPalette";
 import { Footer } from "@/components/layout/Footer";
 import { Nav } from "@/components/layout/Nav";
@@ -7,24 +8,24 @@ import { profile } from "@/data/profile";
 import { publications } from "@/data/publications";
 import { site } from "@/lib/site";
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const display = Space_Grotesk({
-  subsets: ["latin"],
-  variable: "--font-display",
-});
-
-const sans = Inter({
+const sans = Geist({
   subsets: ["latin"],
   variable: "--font-sans",
+});
+
+const mono = Geist_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default: site.title,
-    template: `%s · ${profile.professionalName}`,
+    template: `%s · isjustabhi`,
   },
   description: site.description,
   keywords: [
@@ -32,18 +33,22 @@ export const metadata: Metadata = {
     "Abhiram Nandimandalam",
     "AI Engineer",
     "Data Scientist",
+    "isjustabhi",
+    "Abhi",
     "LLM-HyPZ",
     "University of Arizona",
+    "badminton",
   ],
   authors: [{ name: profile.fullName, url: site.url }],
   openGraph: {
     title: site.title,
     description: site.description,
     url: site.url,
-    siteName: site.name,
+    siteName: "isjustabhi",
     locale: "en_US",
     type: "profile",
   },
+  alternates: { canonical: "/" },
   twitter: {
     card: "summary_large_image",
     title: site.title,
@@ -70,6 +75,7 @@ const personJsonLd = {
     profile.links.scholar,
     profile.links.orcid,
     profile.links.university,
+    profile.links.medium,
   ],
 };
 
@@ -85,10 +91,13 @@ const articleJsonLd = publications
     url: `https://doi.org/${pub.doi}`,
   }));
 
+const introScript = `try{if(sessionStorage.getItem('isjustabhi-intro-a')==='1')document.documentElement.dataset.intro='done'}catch(e){}`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${display.variable} ${sans.variable} bg-ink text-mist antialiased`}>
+      <body className={`${sans.variable} ${mono.variable} bg-ink text-mist antialiased`}>
+        <script dangerouslySetInnerHTML={{ __html: introScript }} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -96,11 +105,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         <Providers>
+          <CinematicIntro />
           <ProgressBar />
           <Nav />
           <CommandPalette />
-          <main>{children}</main>
-          <Footer />
+          <div className="flex min-h-screen flex-col">
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
         </Providers>
       </body>
     </html>

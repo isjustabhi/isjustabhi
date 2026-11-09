@@ -8,7 +8,7 @@ export function AskAbhiram() {
   const [answer, setAnswer] = useState(knowledgeBase[0].answer);
 
   return (
-    <section className="rounded-3xl border border-ink-line bg-ink-surface p-6 sm:p-8">
+    <section className="border-t border-ink-line pt-10">
       <p className="text-xs uppercase tracking-[0.22em] text-signal">Ask about Abhiram</p>
       <h2 className="display mt-3 text-2xl text-mist">Grounded answers only.</h2>
       <p className="mt-3 max-w-2xl text-sm leading-relaxed text-mist-muted">
@@ -29,12 +29,12 @@ export function AskAbhiram() {
           id="ask-abhiram"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Ask about LSCH, LLM-HyPZ, DataLoom…"
-          className="h-11 flex-1 rounded-full border border-ink-line bg-ink px-4 text-sm text-mist outline-none focus:border-signal"
+          placeholder="Ask about LSCH, PersonaeAI, LLM-HyPZ, resume…"
+          className="h-11 flex-1 rounded-full border border-ink-line bg-transparent px-4 text-sm text-mist outline-none transition focus:border-mist"
         />
         <button
           type="submit"
-          className="h-11 rounded-full bg-signal px-5 text-sm font-medium text-[#06202a]"
+          className="h-11 rounded-full bg-mist px-5 text-sm font-bold text-ink"
         >
           Ask
         </button>
@@ -44,7 +44,7 @@ export function AskAbhiram() {
           <button
             key={entry.id}
             type="button"
-            className="rounded-full border border-ink-line px-3 py-1 text-xs text-mist-muted hover:border-signal hover:text-signal"
+            className="rounded-full border border-ink-line px-3 py-1 text-xs text-mist-muted hover:border-mist"
             onClick={() => {
               setQuery(entry.questions[0]);
               setAnswer(entry.answer);

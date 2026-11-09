@@ -3,32 +3,36 @@
 @tailwind utilities;
 
 :root {
-  --bg: #f4f7fb;
-  --bg-muted: #e8eef6;
-  --surface: #ffffff;
+  --bg: #f4f6fb;
+  --bg-muted: #e8ecf4;
+  --surface: rgba(255, 255, 255, 0.72);
   --surface-elevated: #ffffff;
-  --line: rgba(15, 23, 42, 0.1);
-  --grid: rgba(15, 23, 42, 0.05);
-  --text: #0f172a;
-  --text-muted: #4b5b70;
-  --text-faint: #7b8aa0;
-  --cyan: #0e7490;
-  --violet: #6d28d9;
+  --line: rgba(9, 9, 11, 0.1);
+  --grid: rgba(9, 9, 11, 0.05);
+  --text: #09090b;
+  --text-muted: #52525b;
+  --text-faint: #a1a1aa;
+  --cyan: #2563eb;
+  --violet: #7c3aed;
+  --glow: rgba(37, 99, 235, 0.28);
+  --intro: #0a0f18;
   color-scheme: light;
 }
 
 .dark {
-  --bg: #080b12;
-  --bg-muted: #0c111b;
-  --surface: #111827;
-  --surface-elevated: #162033;
-  --line: rgba(244, 247, 251, 0.08);
-  --grid: rgba(69, 214, 255, 0.05);
-  --text: #f4f7fb;
-  --text-muted: #9aa8bc;
-  --text-faint: #6b7a8f;
-  --cyan: #45d6ff;
-  --violet: #8b5cf6;
+  --bg: #070b12;
+  --bg-muted: #0c121c;
+  --surface: rgba(9, 13, 22, 0.72);
+  --surface-elevated: #121826;
+  --line: rgba(255, 255, 255, 0.1);
+  --grid: rgba(147, 197, 253, 0.06);
+  --text: #f4f4f5;
+  --text-muted: #a1a1aa;
+  --text-faint: #71717a;
+  --cyan: #60a5fa;
+  --violet: #a78bfa;
+  --glow: rgba(59, 130, 246, 0.35);
+  --intro: #0a0f18;
   color-scheme: dark;
 }
 
@@ -36,34 +40,120 @@ html {
   scroll-behavior: smooth;
 }
 
+html[data-intro="playing"] {
+  overflow: hidden;
+}
+
+html[data-intro="done"] .cinematic-intro {
+  display: none !important;
+}
+
 body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font-sans), system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--cyan) 35%, transparent);
+  background: color-mix(in srgb, var(--cyan) 30%, transparent);
 }
 
 .display {
-  font-family: var(--font-display), system-ui, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
 }
 
-.grid-bg {
-  background-image: var(--tw-gradient-stops, none),
-    linear-gradient(to right, var(--grid) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
-  background-size: auto, 56px 56px, 56px 56px;
+.hero-name {
+  font-size: clamp(4.2rem, 14vw, 9.5rem);
+  line-height: 0.82;
 }
 
 .focus-ring {
   @apply outline-none focus-visible:ring-2 focus-visible:ring-signal focus-visible:ring-offset-2 focus-visible:ring-offset-ink;
 }
 
+.rule {
+  height: 1px;
+  background: var(--line);
+}
+
+.glass-panel {
+  background: var(--surface);
+  backdrop-filter: blur(40px) saturate(150%);
+  -webkit-backdrop-filter: blur(40px) saturate(150%);
+}
+
+.panel {
+  background: color-mix(in srgb, var(--surface-elevated) 55%, transparent);
+  backdrop-filter: blur(24px) saturate(140%);
+  -webkit-backdrop-filter: blur(24px) saturate(140%);
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  box-shadow: 0 18px 50px -32px color-mix(in srgb, var(--cyan) 40%, transparent);
+}
+
+.island {
+  height: 40px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: 0 10px 30px -18px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(40px) saturate(160%);
+  -webkit-backdrop-filter: blur(40px) saturate(160%);
+}
+
+.brand-mark {
+  background: linear-gradient(135deg, #3b82f6, #7c3aed);
+  box-shadow: 0 10px 24px -10px rgba(59, 130, 246, 0.55);
+}
+
+.interactive-row {
+  position: relative;
+  transition: transform 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .interactive-row:hover {
+    transform: translateX(6px);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+.progress-glow {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .interactive-row {
+    transition: none;
+  }
+
+  .interactive-row:hover {
+    transform: none;
+  }
+
+  .animate-marquee {
+    animation: none;
   }
 
   *,

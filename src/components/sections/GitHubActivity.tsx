@@ -1,3 +1,4 @@
+import { BuildIn } from "@/components/ui/BuildIn";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { fallbackRepos, type RepoCard } from "@/data/github";
@@ -22,7 +23,13 @@ async function loadRepos(): Promise<RepoCard[]> {
       topics?: string[];
     }>;
     return data
-      .filter((repo) => !repo.fork && repo.name !== "isjustabhi")
+      .filter(
+        (repo) =>
+          !repo.fork &&
+          repo.name !== "isjustabhi" &&
+          repo.name !== "DataLoom" &&
+          repo.name !== "TRIAGELENS",
+      )
       .sort((a, b) => b.stargazers_count - a.stargazers_count || b.updated_at.localeCompare(a.updated_at))
       .slice(0, 8)
       .map((repo) => ({
@@ -44,22 +51,22 @@ export async function GitHubActivity() {
   const repos = await loadRepos();
 
   return (
-    <section id="github" className="border-b border-ink-line py-24">
-      <Container>
+    <section id="github" className="scroll-mt-24 py-8 sm:py-12">
+      <Container panel>
         <SectionHeading
-          index="07"
+          index="09"
           eyebrow="Open source"
           title="Public repositories, with a static fallback."
           description="Fetched from the GitHub API when available. No token is used in the frontend."
         />
-        <div className="mt-12 grid gap-4 md:grid-cols-2">
+        <div className="mt-12">
           {repos.map((repo) => (
+            <BuildIn key={repo.name}>
             <a
-              key={repo.name}
               href={repo.htmlUrl}
               target="_blank"
               rel="noreferrer"
-              className="rounded-3xl border border-ink-line p-6 hover:border-signal/40"
+              className="interactive-row block border-t border-ink-line py-6 hover:text-signal"
             >
               <div className="flex items-center justify-between gap-3">
                 <h3 className="text-mist">{repo.name}</h3>
@@ -70,6 +77,7 @@ export async function GitHubActivity() {
                 {repo.language ?? "Mixed"} · Updated {formatDate(repo.updatedAt)}
               </p>
             </a>
+            </BuildIn>
           ))}
         </div>
       </Container>

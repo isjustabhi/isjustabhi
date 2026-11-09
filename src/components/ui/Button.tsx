@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import type { ReactNode } from "react";
 
 const variants = {
   primary:
-    "bg-signal text-[#06202a] hover:brightness-110 dark:text-[#06202a]",
+    "rounded-full bg-mist px-6 py-2.5 text-sm font-bold text-ink shadow-lg transition hover:bg-white active:scale-95 dark:hover:bg-zinc-100",
   secondary:
-    "border border-ink-line bg-transparent text-mist hover:border-signal hover:text-signal",
-  ghost: "text-mist-muted hover:text-signal",
+    "rounded-full border border-ink-line bg-ink-elevated/40 px-6 py-2.5 text-sm font-medium text-mist backdrop-blur-xl transition hover:border-mist/40",
+  ghost:
+    "rounded-full px-5 py-2.5 text-sm font-medium text-mist-muted underline-offset-[6px] transition hover:text-mist hover:underline",
 };
 
 export function Button({
@@ -17,20 +19,23 @@ export function Button({
   external,
 }: {
   href: string;
-  children: React.ReactNode;
+  children: ReactNode;
   variant?: keyof typeof variants;
   className?: string;
   external?: boolean;
 }) {
-  const classes = cn(
-    "inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-medium transition-colors focus-ring",
-    variants[variant],
-    className,
-  );
+  const classes = cn("inline-flex items-center justify-center focus-ring", variants[variant], className);
 
   if (external) {
+    const isFile = /\.(pdf|png|jpg|jpeg|svg|zip)$/i.test(href);
     return (
-      <a href={href} className={classes} target="_blank" rel="noreferrer">
+      <a
+        href={href}
+        className={classes}
+        target={isFile ? undefined : "_blank"}
+        rel={isFile ? undefined : "noreferrer"}
+        download={isFile || undefined}
+      >
         {children}
       </a>
     );
