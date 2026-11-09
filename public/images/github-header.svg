@@ -1,38 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-label="isjustabhi — Abhi">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-label="isjustabhi — Abhi">
   <defs>
-    <radialGradient id="glow" cx="18%" cy="20%" r="70%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.35"/>
-      <stop offset="45%" stop-color="#0a0f18" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#070b12" stop-opacity="1"/>
+    <radialGradient id="bg" cx="70%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.45"/>
+      <stop offset="35%" stop-color="#0f172a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#3b82f6"/>
       <stop offset="100%" stop-color="#7c3aed"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#60a5fa" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
-    </linearGradient>
   </defs>
-  <rect width="1280" height="320" fill="#070b12"/>
-  <rect width="1280" height="320" fill="url(#glow)"/>
-  <circle cx="1040" cy="80" r="160" fill="#7c3aed" opacity="0.08"/>
-  <circle cx="1120" cy="220" r="120" fill="#3b82f6" opacity="0.1"/>
-  <g opacity="0.45" stroke="#60a5fa" stroke-width="1">
-    <line x1="860" y1="70" x2="980" y2="140"/>
-    <line x1="980" y1="140" x2="1110" y2="110"/>
-    <line x1="980" y1="140" x2="1080" y2="230"/>
-    <circle cx="860" cy="70" r="3" fill="#93c5fd" stroke="none"/>
-    <circle cx="980" cy="140" r="4" fill="#93c5fd" stroke="none"/>
-    <circle cx="1110" cy="110" r="3" fill="#93c5fd" stroke="none"/>
-    <circle cx="1080" cy="230" r="3" fill="#93c5fd" stroke="none"/>
+
+  <rect width="1280" height="420" fill="#030712"/>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <circle cx="980" cy="140" r="210" fill="url(#orb)"/>
+  <circle cx="1120" cy="300" r="140" fill="#7c3aed" opacity="0.12"/>
+
+  <!-- constellation -->
+  <g stroke="#93c5fd" stroke-width="1.2" opacity="0.55">
+    <line x1="820" y1="90" x2="930" y2="150"/>
+    <line x1="930" y1="150" x2="1040" y2="110"/>
+    <line x1="930" y1="150" x2="1010" y2="250"/>
+    <line x1="1010" y1="250" x2="1125" y2="210"/>
+    <circle cx="820" cy="90" r="4" fill="#dbeafe" stroke="none"/>
+    <circle cx="930" cy="150" r="5" fill="#dbeafe" stroke="none"/>
+    <circle cx="1040" cy="110" r="3.5" fill="#dbeafe" stroke="none"/>
+    <circle cx="1010" cy="250" r="4" fill="#dbeafe" stroke="none"/>
+    <circle cx="1125" cy="210" r="3.5" fill="#dbeafe" stroke="none"/>
   </g>
-  <rect x="56" y="56" width="52" height="52" rx="14" fill="url(#mark)"/>
-  <text x="82" y="91" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="26" font-weight="700">A</text>
-  <text x="128" y="78" fill="#93c5fd" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="600" letter-spacing="5">ISJUSTABHI · 2026</text>
-  <text x="56" y="170" fill="#f4f4f5" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="72" font-weight="700" letter-spacing="-2">Hey, I'm Abhi.</text>
-  <text x="56" y="226" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22">Just Abhi. Building things, chasing ideas, and smashing shuttlecocks.</text>
-  <rect x="56" y="268" width="420" height="2" fill="url(#line)"/>
-  <text x="56" y="300" fill="#71717a" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" letter-spacing="2">DATA · AI · BIOINFORMATICS · BADMINTON</text>
+
+  <rect x="64" y="56" width="56" height="56" rx="16" fill="url(#mark)"/>
+  <text x="92" y="94" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="28" font-weight="800">A</text>
+  <text x="140" y="78" fill="#93c5fd" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16" font-weight="700" letter-spacing="6">ISJUSTABHI</text>
+  <text x="140" y="102" fill="#64748b" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14">Tucson · Portfolio 2026</text>
+
+  <text x="64" y="210" fill="#f8fafc" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="92" font-weight="800" letter-spacing="-4">Abhi.</text>
+  <text x="64" y="268" fill="#cbd5e1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="24">Just Abhi. Building things, chasing ideas,</text>
+  <text x="64" y="302" fill="#cbd5e1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="24">and smashing shuttlecocks.</text>
+
+  <rect x="64" y="338" width="220" height="44" rx="22" fill="url(#cta)"/>
+  <text x="174" y="366" text-anchor="middle" fill="#ffffff" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16" font-weight="700">isjustabhi.com</text>
+  <rect x="300" y="338" width="180" height="44" rx="22" fill="#ffffff10" stroke="#ffffff22"/>
+  <text x="390" y="366" text-anchor="middle" fill="#e2e8f0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15" font-weight="600">@isjustabhi</text>
 </svg>

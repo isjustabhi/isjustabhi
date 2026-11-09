@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" role="img" aria-label="Now">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="96" rx="20" fill="#0a0f18" stroke="#ffffff14"/>
+  <rect x="0" y="0" width="8" height="96" fill="url(#bar)"/>
+  <circle cx="48" cy="48" r="7" fill="#22c55e">
+    <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="72" y="42" fill="#f4f4f5" font-family="ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="700">Now · Scientific Analyst @ LSCH</text>
+  <text x="72" y="70" fill="#a1a1aa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Data · AI · Bioinformatics · Tucson · badminton after hours</text>
+  <text x="1080" y="54" text-anchor="end" fill="#60a5fa" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="600">LIVE</text>
+</svg>

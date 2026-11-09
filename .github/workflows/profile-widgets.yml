@@ -45,20 +45,16 @@ jobs:
           }
 
           fetch_with_fallback assets/github-widgets/stats.svg \
-            "https://github-readme-stats.vercel.app/api?username=isjustabhi&show_icons=true&theme=radical&hide_border=false" \
-            "https://github-stats.vercel.app/api?username=isjustabhi&show_icons=true&theme=radical&hide_border=false"
+            "https://github-readme-stats.vercel.app/api?username=isjustabhi&show_icons=true&hide_border=true&bg_color=070b12&title_color=60A5FA&icon_color=60A5FA&text_color=F8FAFC&ring_color=3B82F6"
 
           fetch_with_fallback assets/github-widgets/streak.svg \
-            "https://streak-stats.demolab.com/?user=isjustabhi&theme=radical&hide_border=false" \
-            "https://github-readme-streak-stats.herokuapp.com/?user=isjustabhi&theme=radical&hide_border=false"
+            "https://streak-stats.demolab.com/?user=isjustabhi&hide_border=true&background=070b12&ring=3B82F6&fire=F59E0B&currStreakLabel=60A5FA&sideLabels=94A3B8&dates=64748B&currStreakNum=F8FAFC&sideNums=F8FAFC"
 
           fetch_with_fallback assets/github-widgets/top-langs.svg \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=isjustabhi&theme=radical&layout=compact&hide_border=false&langs_count=8" \
-            "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=isjustabhi&theme=radical"
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=isjustabhi&layout=compact&langs_count=6&hide_border=true&bg_color=070b12&title_color=60A5FA&text_color=F8FAFC"
 
           fetch_with_fallback assets/github-widgets/trophies.svg \
-            "https://profile-trophy.vercel.app/?username=isjustabhi&theme=radical&no-bg=true&margin-w=4&row=2&column=4" \
-            "https://github-profile-trophy.vercel.app/?username=isjustabhi&theme=radical&no-bg=true&margin-w=4&row=2&column=4"
+            "https://github-profile-trophy.vercel.app/?username=isjustabhi&theme=onedark&no-frame=true&row=1&column=7&margin-w=10"
 
       - name: Commit updated widgets
         run: |

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label="Featured work">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121826"/>
+      <stop offset="100%" stop-color="#0a0f18"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="c" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="220" fill="#070b12"/>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <rect x="24" y="28" width="368" height="164" rx="24" fill="url(#card)" stroke="#ffffff14"/>
+    <rect x="24" y="28" width="368" height="6" rx="3" fill="url(#a)"/>
+    <text x="52" y="88" fill="#93c5fd" font-size="12" letter-spacing="3" font-weight="600">PAPER</text>
+    <text x="52" y="128" fill="#f4f4f5" font-size="28" font-weight="700">LLM-HyPZ</text>
+    <text x="52" y="162" fill="#a1a1aa" font-size="14">IEEE ICDMW 2025 · hardware CVEs</text>
+
+    <rect x="416" y="28" width="368" height="164" rx="24" fill="url(#card)" stroke="#ffffff14"/>
+    <rect x="416" y="28" width="368" height="6" rx="3" fill="url(#b)"/>
+    <text x="444" y="88" fill="#c4b5fd" font-size="12" letter-spacing="3" font-weight="600">RESEARCH</text>
+    <text x="444" y="128" fill="#f4f4f5" font-size="28" font-weight="700">PersonaeAI</text>
+    <text x="444" y="162" fill="#a1a1aa" font-size="14">Synthetic survey personas · Claude</text>
+
+    <rect x="808" y="28" width="368" height="164" rx="24" fill="url(#card)" stroke="#ffffff14"/>
+    <rect x="808" y="28" width="368" height="6" rx="3" fill="url(#c)"/>
+    <text x="836" y="88" fill="#67e8f9" font-size="12" letter-spacing="3" font-weight="600">PROTOTYPE</text>
+    <text x="836" y="128" fill="#f4f4f5" font-size="26" font-weight="700">Rural Health Kiosk</text>
+    <text x="836" y="162" fill="#a1a1aa" font-size="14">Voice · text · avatar · nonclinical</text>
+  </g>
+</svg>
