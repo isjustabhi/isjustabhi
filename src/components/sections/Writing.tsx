@@ -8,7 +8,7 @@ export async function Writing() {
   const posts = (await getMediumPosts()).slice(0, 3);
 
   return (
-    <section id="writing" className="scroll-mt-24 py-8 sm:py-12">
+    <section id="writing" className="scroll-mt-24 py-4 sm:py-5">
       <Container panel>
         <div className="mb-6 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading

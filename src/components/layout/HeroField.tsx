@@ -3,6 +3,15 @@
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 
+type Node = {
+  x: number;
+  y: number;
+  z: number;
+  vx: number;
+  vy: number;
+  r: number;
+};
+
 export function HeroField() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -13,13 +22,12 @@ export function HeroField() {
     if (!ctx) return;
 
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const mobile = window.matchMedia("(max-width: 768px)").matches;
     let width = 0;
     let height = 0;
     let raf = 0;
-    let t = 0;
-
-    type Spark = { x: number; y: number; r: number; s: number; a: number };
-    let sparks: Spark[] = [];
+    let nodes: Node[] = [];
+    let pointer = { x: -9999, y: -9999 };
 
     const resize = () => {
       width = window.innerWidth;
@@ -30,43 +38,64 @@ export function HeroField() {
       canvas.style.width = `${width}px`;
       canvas.style.height = `${height}px`;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      sparks = Array.from({ length: Math.min(48, Math.floor(width / 28)) }, () => ({
-        x: Math.random() * width,
-        y: Math.random() * height,
-        r: Math.random() * 1.8 + 0.4,
-        s: Math.random() * 0.25 + 0.05,
-        a: Math.random() * 0.45 + 0.15,
-      }));
+
+      const count = mobile
+        ? Math.min(42, Math.floor((width * height) / 22000))
+        : Math.min(90, Math.floor((width * height) / 16000));
+
+      nodes = Array.from({ length: count }, () => {
+        const bias = mobile ? Math.random() : 0.42 + Math.random() * 0.58;
+        return {
+          x: bias * width,
+          y: Math.random() * height,
+          z: Math.random(),
+          vx: (Math.random() - 0.5) * 0.22,
+          vy: (Math.random() - 0.5) * 0.22,
+          r: Math.random() * 1.8 + 0.6,
+        };
+      });
     };
 
     const draw = () => {
-      t += 0.004;
       ctx.clearRect(0, 0, width, height);
 
-      for (const spark of sparks) {
-        spark.y -= spark.s;
-        if (spark.y < -8) {
-          spark.y = height + 8;
-          spark.x = Math.random() * width;
+      // soft nebula on the right
+      const nebulaX = mobile ? width * 0.5 : width * 0.72;
+      const glow = ctx.createRadialGradient(nebulaX, height * 0.42, 0, nebulaX, height * 0.42, width * 0.45);
+      glow.addColorStop(0, "rgba(30, 144, 255, 0.22)");
+      glow.addColorStop(0.45, "rgba(14, 70, 160, 0.1)");
+      glow.addColorStop(1, "rgba(0, 5, 16, 0)");
+      ctx.fillStyle = glow;
+      ctx.fillRect(0, 0, width, height);
+
+      const linkDist = mobile ? 100 : 140;
+
+      for (const node of nodes) {
+        node.x += node.vx;
+        node.y += node.vy;
+        if (node.x < width * (mobile ? 0 : 0.28) || node.x > width) node.vx *= -1;
+        if (node.y < 0 || node.y > height) node.vy *= -1;
+
+        const dx = node.x - pointer.x;
+        const dy = node.y - pointer.y;
+        const d = Math.hypot(dx, dy);
+        if (d < 160) {
+          node.x += (dx / (d || 1)) * 0.35;
+          node.y += (dy / (d || 1)) * 0.35;
         }
-        const pulse = 0.55 + Math.sin(t * 4 + spark.x) * 0.35;
-        ctx.beginPath();
-        ctx.fillStyle = `rgba(147, 197, 253, ${spark.a * pulse})`;
-        ctx.arc(spark.x, spark.y, spark.r, 0, Math.PI * 2);
-        ctx.fill();
       }
 
-      ctx.strokeStyle = "rgba(96, 165, 250, 0.08)";
       ctx.lineWidth = 1;
-      for (let i = 0; i < sparks.length; i += 1) {
-        for (let j = i + 1; j < sparks.length; j += 1) {
-          const a = sparks[i];
-          const b = sparks[j];
+      for (let i = 0; i < nodes.length; i += 1) {
+        for (let j = i + 1; j < nodes.length; j += 1) {
+          const a = nodes[i];
+          const b = nodes[j];
           const dx = a.x - b.x;
           const dy = a.y - b.y;
           const dist = Math.hypot(dx, dy);
-          if (dist < 130) {
-            ctx.globalAlpha = 1 - dist / 130;
+          if (dist < linkDist) {
+            const alpha = (1 - dist / linkDist) * 0.55;
+            ctx.strokeStyle = `rgba(125, 211, 252, ${alpha})`;
             ctx.beginPath();
             ctx.moveTo(a.x, a.y);
             ctx.lineTo(b.x, b.y);
@@ -74,33 +103,58 @@ export function HeroField() {
           }
         }
       }
-      ctx.globalAlpha = 1;
+
+      for (const node of nodes) {
+        const radius = node.r * (0.7 + node.z * 0.8);
+        ctx.beginPath();
+        ctx.fillStyle = `rgba(226, 242, 255, ${0.55 + node.z * 0.45})`;
+        ctx.arc(node.x, node.y, radius, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.beginPath();
+        ctx.fillStyle = `rgba(56, 189, 248, ${0.12 + node.z * 0.2})`;
+        ctx.arc(node.x, node.y, radius * 3.2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
       raf = requestAnimationFrame(draw);
+    };
+
+    const onMove = (event: PointerEvent) => {
+      pointer = { x: event.clientX, y: event.clientY };
     };
 
     resize();
     window.addEventListener("resize", resize);
-    if (!reduce) draw();
+    window.addEventListener("pointermove", onMove, { passive: true });
+    if (reduce) {
+      // still draw one static frame
+      draw();
+      cancelAnimationFrame(raf);
+    } else {
+      draw();
+    }
 
     return () => {
       cancelAnimationFrame(raf);
       window.removeEventListener("resize", resize);
+      window.removeEventListener("pointermove", onMove);
     };
   }, []);
 
   return (
     <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+      <div className="absolute inset-0 bg-[#000510]" />
       <Image
-        src="/images/hero/field.jpg"
+        src="/images/hero/constellation.png"
         alt=""
         fill
         priority
         sizes="100vw"
-        className="object-cover opacity-80 dark:opacity-90"
+        className="object-cover object-right opacity-55 md:opacity-70 md:object-[70%_center]"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-ink/35 via-ink/55 to-ink" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_10%,var(--bg)_78%)]" />
-      <canvas ref={canvasRef} className="absolute inset-0 h-full w-full mix-blend-screen opacity-70" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#000510] via-[#000510]/80 to-transparent md:via-[#000510]/55" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#000510] via-transparent to-[#000510]/40" />
+      <canvas ref={canvasRef} className="absolute inset-0 h-full w-full" />
     </div>
   );
 }

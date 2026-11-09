@@ -51,7 +51,7 @@ The app’s canonical URL in code is `https://isjustabhi.com` (`src/lib/site.ts`
 ## After deploy, click through
 
 - Home, `/projects`, `/research`, `/writing`, `/beyond-code`
-- `/work/llm-hypz`, `/work/rural-health-kiosk`, `/work/pdf-qa-rag`
+- `/work/llm-hypz`, `/work/pdf-qa-rag`
 - Writing cards (or the empty-state link to Medium if the feed is down)
 - 404 at a fake path
 - `/sitemap.xml` and `/robots.txt`

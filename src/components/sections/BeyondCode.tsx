@@ -8,7 +8,7 @@ export function BeyondCode() {
   const badminton = interests[0];
 
   return (
-    <section id="beyond" className="scroll-mt-24 py-8 sm:py-12">
+    <section id="beyond" className="scroll-mt-24 py-4 sm:py-5">
       <Container panel className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
           <SectionHeading

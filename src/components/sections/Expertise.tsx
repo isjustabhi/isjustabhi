@@ -4,7 +4,7 @@ import { skillGroups } from "@/data/skills";
 
 export function Expertise() {
   return (
-    <section id="expertise" className="scroll-mt-24 py-8 sm:py-12">
+    <section id="expertise" className="scroll-mt-24 py-4 sm:py-5">
       <Container panel>
         <SectionHeading
           index="05"

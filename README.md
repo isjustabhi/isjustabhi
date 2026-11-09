@@ -45,7 +45,6 @@ No resume dump here. Just the vibe, the pulse, and a door to the work.
 <p align="center">
   <a href="https://arxiv.org/abs/2509.00647"><img src="https://img.shields.io/badge/LLM--HyPZ-arxiv-3B82F6?style=flat-square" alt="LLM-HyPZ" /></a>
   <a href="https://isjustabhi.com"><img src="https://img.shields.io/badge/PersonaeAI-site-8B5CF6?style=flat-square" alt="PersonaeAI" /></a>
-  <a href="https://isjustabhi.com/#work"><img src="https://img.shields.io/badge/Rural%20Health%20Kiosk-prototype-06B6D4?style=flat-square" alt="Rural Health Kiosk" /></a>
   <a href="https://github.com/isjustabhi/systematic-review-processor"><img src="https://img.shields.io/badge/systematic--review-repo-22C55E?style=flat-square" alt="systematic-review-processor" /></a>
 </p>
 

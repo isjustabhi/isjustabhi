@@ -9,7 +9,7 @@ export const skillGroups = [
       },
       {
         name: "RAG & semantic retrieval",
-        evidence: "LLM-HyPZ RAG/embedding work; private PDF QA; Rural Health Kiosk (team)",
+        evidence: "LLM-HyPZ RAG/embedding work; private PDF QA",
       },
       {
         name: "Prompt engineering",
@@ -101,7 +101,7 @@ export const skillGroups = [
     items: [
       {
         name: "React + TypeScript",
-        evidence: "HealthMate, ReviewIQ, AI Student Care, AI Interview System",
+        evidence: "ReviewIQ, AI Student Care, AI Interview System",
       },
       {
         name: "Next.js / Vite",

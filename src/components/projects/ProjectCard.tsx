@@ -33,9 +33,9 @@ export function ProjectCard({
               src={project.cover}
               alt={`${project.title} visual`}
               priority={index === 0}
-              className="aspect-[16/9] rounded-none border-0 border-b border-ink-line"
+              className="aspect-[21/9] rounded-none border-0 border-b border-ink-line sm:aspect-[16/7]"
             />
-            <div className="grid gap-8 p-8 sm:p-10 lg:grid-cols-[88px_1fr_auto]">
+            <div className="grid gap-5 p-5 sm:gap-6 sm:p-7 lg:grid-cols-[72px_1fr_auto]">
               <p className="display text-4xl text-mist-faint sm:text-5xl">{number}</p>
               <div>
                 <h3 className="display text-4xl text-mist sm:text-6xl">{project.title}</h3>

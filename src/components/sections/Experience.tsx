@@ -5,7 +5,7 @@ import { experience } from "@/data/experience";
 
 export function Experience() {
   return (
-    <section id="experience" className="scroll-mt-24 py-8 sm:py-12">
+    <section id="experience" className="scroll-mt-24 py-4 sm:py-5">
       <Container panel>
         <SectionHeading
           index="07"

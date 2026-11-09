@@ -20,19 +20,19 @@
 }
 
 .dark {
-  --bg: #070b12;
-  --bg-muted: #0c121c;
-  --surface: rgba(9, 13, 22, 0.72);
-  --surface-elevated: #121826;
+  --bg: #000510;
+  --bg-muted: #050b16;
+  --surface: rgba(5, 12, 24, 0.72);
+  --surface-elevated: #0b1524;
   --line: rgba(255, 255, 255, 0.1);
-  --grid: rgba(147, 197, 253, 0.06);
-  --text: #f4f4f5;
-  --text-muted: #a1a1aa;
-  --text-faint: #71717a;
-  --cyan: #60a5fa;
-  --violet: #a78bfa;
-  --glow: rgba(59, 130, 246, 0.35);
-  --intro: #0a0f18;
+  --grid: rgba(56, 189, 248, 0.07);
+  --text: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-faint: #64748b;
+  --cyan: #38bdf8;
+  --violet: #818cf8;
+  --glow: rgba(30, 144, 255, 0.35);
+  --intro: #000510;
   color-scheme: dark;
 }
 
@@ -67,8 +67,14 @@ body {
 }
 
 .hero-name {
-  font-size: clamp(4.2rem, 14vw, 9.5rem);
-  line-height: 0.82;
+  font-size: clamp(4.8rem, 18vw, 11rem);
+  line-height: 0.85;
+  letter-spacing: -0.06em;
+}
+
+.brand-mark {
+  background: transparent;
+  box-shadow: none;
 }
 
 .focus-ring {

@@ -14,8 +14,8 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <About />
       <SelectedWork />
+      <About />
       <Writing />
       <Research />
       <Expertise />

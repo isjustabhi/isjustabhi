@@ -1,7 +1,7 @@
 import { BuildIn } from "@/components/ui/BuildIn";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { fallbackRepos, type RepoCard } from "@/data/github";
+import { fallbackRepos, hiddenRepos, type RepoCard } from "@/data/github";
 import { formatDate } from "@/lib/utils";
 
 async function loadRepos(): Promise<RepoCard[]> {
@@ -22,19 +22,23 @@ async function loadRepos(): Promise<RepoCard[]> {
       fork: boolean;
       topics?: string[];
     }>;
-    return data
+    const curated = data
       .filter(
         (repo) =>
           !repo.fork &&
-          repo.name !== "isjustabhi" &&
-          repo.name !== "DataLoom" &&
-          repo.name !== "TRIAGELENS",
+          !hiddenRepos.has(repo.name) &&
+          Boolean(repo.description?.trim()) &&
+          !repo.name.startsWith("shape_color"),
       )
-      .sort((a, b) => b.stargazers_count - a.stargazers_count || b.updated_at.localeCompare(a.updated_at))
-      .slice(0, 8)
+      .sort(
+        (a, b) =>
+          b.stargazers_count - a.stargazers_count ||
+          b.updated_at.localeCompare(a.updated_at),
+      )
+      .slice(0, 6)
       .map((repo) => ({
         name: repo.name,
-        description: repo.description ?? "Public repository.",
+        description: repo.description!.trim(),
         htmlUrl: repo.html_url,
         homepage: repo.homepage || undefined,
         language: repo.language || undefined,
@@ -42,6 +46,7 @@ async function loadRepos(): Promise<RepoCard[]> {
         updatedAt: repo.updated_at,
         topics: repo.topics,
       }));
+    return curated.length ? curated : fallbackRepos;
   } catch {
     return fallbackRepos;
   }
@@ -51,7 +56,7 @@ export async function GitHubActivity() {
   const repos = await loadRepos();
 
   return (
-    <section id="github" className="scroll-mt-24 py-8 sm:py-12">
+    <section id="github" className="scroll-mt-24 py-4 sm:py-5">
       <Container panel>
         <SectionHeading
           index="09"

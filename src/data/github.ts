@@ -9,6 +9,23 @@ export type RepoCard = {
   topics?: string[];
 };
 
+/** Repos that should never appear in the Open Source section. */
+export const hiddenRepos = new Set([
+  "sleeplens",
+  "healthmate",
+  "VerifyHire",
+  "AI4HC",
+  "isjustabhi.github.io",
+  "terminal-bench-log-report",
+  "shape_color_cond1_color_given_shape",
+  "shape_color_cond2_shape_given_color",
+  "shape_color_joint_vae",
+  "isjustabhi",
+  "DataLoom",
+  "TRIAGELENS",
+  "TriageLens",
+]);
+
 export const fallbackRepos: RepoCard[] = [
   {
     name: "systematic-review-processor",
@@ -20,26 +37,6 @@ export const fallbackRepos: RepoCard[] = [
     stars: 1,
     updatedAt: "2026-06-18T00:00:00Z",
     topics: ["ai", "claude", "fastapi", "pdfprocessing", "psychology"],
-  },
-  {
-    name: "healthmate",
-    description:
-      "HealthMate is an AI-powered web app that tracks daily wellness metrics and uses Google Gemini to deliver symptom guidance and personalized health insights.",
-    htmlUrl: "https://github.com/isjustabhi/healthmate",
-    homepage: "https://healthmate-abhi.vercel.app/",
-    language: "TypeScript",
-    stars: 1,
-    updatedAt: "2026-06-19T00:00:00Z",
-  },
-  {
-    name: "sleeplens",
-    description:
-      "AI-powered sleep health intelligence platform with cardiometabolic risk assessment and personalized 7-day plans. Built with React + GPT-4o.",
-    htmlUrl: "https://github.com/isjustabhi/sleeplens",
-    homepage: "https://sleeplens.vercel.app",
-    language: "JavaScript",
-    stars: 1,
-    updatedAt: "2026-09-06T00:00:00Z",
   },
   {
     name: "DRIFT",
@@ -71,15 +68,6 @@ export const fallbackRepos: RepoCard[] = [
     updatedAt: "2026-05-23T00:00:00Z",
   },
   {
-    name: "VerifyHire",
-    description: "AI-powered E-Verify employer search for OPT, STEM OPT, and H-1B students.",
-    htmlUrl: "https://github.com/isjustabhi/VerifyHire",
-    homepage: "https://verify-hire.vercel.app",
-    language: "TypeScript",
-    stars: 0,
-    updatedAt: "2026-07-08T00:00:00Z",
-  },
-  {
     name: "Ai-Interview-system",
     description: "Mock interview coach with JD and resume-conditioned questions.",
     htmlUrl: "https://github.com/isjustabhi/Ai-Interview-system",
@@ -87,5 +75,15 @@ export const fallbackRepos: RepoCard[] = [
     language: "TypeScript",
     stars: 0,
     updatedAt: "2026-04-27T00:00:00Z",
+  },
+  {
+    name: "Enhancing-Multi-class-Skin-Disease-Classification",
+    description:
+      "Transfer-learning study for multi-class skin disease classification (VGG19 / ResNet50).",
+    htmlUrl:
+      "https://github.com/isjustabhi/Enhancing-Multi-class-Skin-Disease-Classification",
+    language: "Jupyter Notebook",
+    stars: 0,
+    updatedAt: "2024-11-19T00:00:00Z",
   },
 ];

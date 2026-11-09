@@ -39,39 +39,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "rural-health-kiosk",
-    title: "Rural Health Kiosk / Dr. Dexter",
-    positioning:
-      "Award-winning graduate capstone for AI-supported rural care access.",
-    problem:
-      "Rural communities face delayed triage and thin clinical coverage. The team built a kiosk-style assistant that can be used by voice, text, and a real-time avatar rather than a conventional chatbot.",
-    contribution:
-      "Collaborative graduate capstone team member. Public materials describe RAG, a fine-tuned MedGemma model, and Claude for culturally sensitive symptom assessment, triage, and personalized guidance. Individual code ownership cannot be verified because the repository is not public.",
-    summary:
-      "University of Arizona College of Information Science capstone presented at iShowcase Spring 2026. The product is a prototype, not a deployed clinical system.",
-    year: 2026,
-    status: "prototype",
-    collaborative: true,
-    team: [
-      "Ameya Subramanian",
-      "Rishinath Enugala",
-      "Abhighyan Bommerla",
-      "Usha Gourigari",
-      "Matthew Qi Lan Thompson",
-      "Abhiram Varma Nandimandalam",
-    ],
-    mentors: ["Ash Black", "Nitika Sharma, PhD", "Catherine Brooks"],
-    tech: ["RAG", "MedGemma", "Claude", "Python", "Voice interfaces"],
-    caseStudy: "/work/rural-health-kiosk",
-    sourcePublic: false,
-    disclaimer:
-      "Prototype / nonclinical. Not FDA-cleared and not a substitute for professional medical care. Source code is not public.",
-    cover: "/images/projects/rural-health-kiosk.jpg",
-    categories: ["genai", "healthcare"],
-    tier: "signature",
-    selected: true,
-  },
-  {
     slug: "llm-hypz",
     title: "LLM-HyPZ",
     positioning:
@@ -274,39 +241,6 @@ export const projects: Project[] = [
     selected: true,
   },
   {
-    slug: "healthmate",
-    title: "HealthMate",
-    positioning:
-      "Full-stack wellness tracker with Gemini symptom guidance.",
-    problem:
-      "People collect sleep, mood, and exercise fragments without a single place that can chart them and offer nonclinical guidance.",
-    contribution:
-      "Sole public author. Next.js frontend, Express API, Supabase PostgreSQL, JWT auth, Gemini 1.5 Flash.",
-    summary:
-      "Built for the ML Empowerment Build Challenge (AI for Health). Tracks metrics, computes a 0–100 health score, and stores symptom checks. Explicitly not medical advice.",
-    year: 2026,
-    status: "hackathon",
-    collaborative: false,
-    tech: [
-      "Next.js 14",
-      "Express",
-      "TypeScript",
-      "Supabase",
-      "Gemini 1.5 Flash",
-      "Recharts",
-    ],
-    github: "https://github.com/isjustabhi/healthmate",
-    demo: "https://healthmate-abhi.vercel.app/",
-    language: "TypeScript",
-    updated: "2026-06-19",
-    stars: 1,
-    sourcePublic: true,
-    disclaimer: "General wellness information only. Not medical advice.",
-    cover: "/images/projects/healthmate.svg",
-    categories: ["healthcare", "product", "genai"],
-    tier: "featured",
-  },
-  {
     slug: "drift",
     title: "DRIFT",
     positioning:
@@ -406,54 +340,6 @@ export const projects: Project[] = [
     sourcePublic: true,
     cover: "/images/projects/interview.svg",
     categories: ["genai", "product"],
-    tier: "archive",
-  },
-  {
-    slug: "sleeplens",
-    title: "SleepLens",
-    positioning:
-      "Sleep intake to an educational cardiometabolic risk report.",
-    problem:
-      "Sleep quality, chronotype, and cardiometabolic risk are usually discussed in separate reports.",
-    contribution:
-      "Sole public author. Vite + React client calling GPT-4o, with a local demo report if no API key is set.",
-    summary:
-      "Educational sleep intelligence report. Not medical advice.",
-    year: 2026,
-    status: "deployed-demo",
-    collaborative: false,
-    tech: ["React 19", "Vite", "Tailwind CSS", "Recharts", "GPT-4o"],
-    github: "https://github.com/isjustabhi/sleeplens",
-    demo: "https://sleeplens.vercel.app",
-    language: "JavaScript",
-    updated: "2026-09-06",
-    stars: 1,
-    sourcePublic: true,
-    disclaimer: "Educational only. Not medical advice.",
-    cover: "/images/projects/sleeplens.svg",
-    categories: ["healthcare", "genai"],
-    tier: "archive",
-  },
-  {
-    slug: "verifyhire",
-    title: "VerifyHire",
-    positioning:
-      "E-Verify employer search for OPT, STEM OPT, and H-1B students.",
-    problem:
-      "International students need a faster way to check whether an employer participates in E-Verify.",
-    contribution: "Sole public author of the TypeScript repository.",
-    summary: "AI-powered employer search app deployed on Vercel.",
-    year: 2026,
-    status: "deployed-demo",
-    collaborative: false,
-    tech: ["TypeScript"],
-    github: "https://github.com/isjustabhi/VerifyHire",
-    demo: "https://verify-hire.vercel.app",
-    language: "TypeScript",
-    updated: "2026-07-08",
-    sourcePublic: true,
-    cover: "/images/projects/verifyhire.svg",
-    categories: ["product"],
     tier: "archive",
   },
   {

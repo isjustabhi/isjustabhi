@@ -15,7 +15,7 @@ export const awards = [
     org: "University of Arizona iShowcase · Applied Research & Industry Impact",
     year: "Spring 2026",
     description:
-      "Team award for Rural Health Kiosk / Dr. Dexter, an AI healthcare capstone using voice, text, and avatar interaction for rural access. Public evidence currently comes from LinkedIn and the GitHub profile; an official iShowcase winners page was not located.",
+      "Team award for a Spring 2026 graduate capstone in Applied Research & Industry Impact. Public evidence currently comes from LinkedIn and the GitHub profile; an official iShowcase winners page was not located.",
     href: "https://infosci.arizona.edu/ishowcase",
     verified: false,
     sourceNote: "Self-published LinkedIn announcement; official winner listing not found.",

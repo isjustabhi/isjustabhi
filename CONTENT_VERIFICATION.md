@@ -50,7 +50,6 @@ These appear on the public GitHub profile biography and/or older portfolio copy.
 
 - No resume PDF in this repository (`public/resume/` is empty)
 - No professional headshot committed; GitHub avatar can be added later
-- Rural Health Kiosk has no public screenshots or repo
 - DiaBuddy and Bio Scholar AI have Lovable demos only; no public source
 - OSF page `https://osf.io/ydq57/` did not return usable bibliographic HTML in this audit
 
@@ -61,7 +60,6 @@ These appear on the public GitHub profile biography and/or older portfolio copy.
 | PDF QA / RAG | Previously listed as private “Cybersecurity RAG / PDF QA”; demo on request; source not public |
 | Sensitivity Analysis / AVA | Private repos; described from GitHub blurbs + owner confirmation |
 | Methylation bioinformatics pipeline | Internal LSCH work; implementation not independently inspected |
-| Rural Health Kiosk / Dr. Dexter | No public GitHub repository |
 | LLM-HyPZ application code | Paper only; no public implementation repo under `isjustabhi` |
 | DiaBuddy AI | `https://dia-wise-ai.lovable.app` — confirm still live |
 | Bio Scholar AI | `https://bio-cite-scribe.lovable.app` — confirm still live |
@@ -91,11 +89,11 @@ Site policy: official directory title plus a broader headline supported by the w
 
 ## Security notes
 
-- SleepLens uses `VITE_OPENAI_API_KEY` (browser-exposed). DataLoom is no longer listed on the site.
+- DataLoom is no longer listed on the site.
 - DRIFT asks for an API key in the UI and keeps it in React state.
 - Do not copy secrets from any repository into this portfolio.
 - No GitHub token is used in frontend code.
 
 ## Healthcare disclaimers required
 
-HealthMate, SleepLens, AI Student Care, Rural Health Kiosk, DiaBuddy, EarlyEco, and the skin-disease paper are nonclinical prototypes or research experiments. TriageLens was removed from the site at the owner’s request.
+AI Student Care, DiaBuddy, EarlyEco, and the skin-disease paper are nonclinical prototypes or research experiments. HealthMate, SleepLens, VerifyHire, Rural Health Kiosk, and TriageLens were removed from the site at the owner’s request.

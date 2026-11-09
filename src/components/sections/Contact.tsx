@@ -15,7 +15,7 @@ const links = [
 
 export function Contact() {
   return (
-    <section id="contact" className="scroll-mt-24 py-8 sm:py-12">
+    <section id="contact" className="scroll-mt-24 py-4 sm:py-5">
       <Container panel>
         <p className="text-[11px] uppercase tracking-[0.28em] text-signal">10 · Contact</p>
         <h2 className="display mt-6 max-w-4xl text-5xl text-mist sm:text-7xl">

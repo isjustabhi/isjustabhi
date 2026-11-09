@@ -13,7 +13,7 @@ export function Container({
   if (panel) {
     return (
       <div className="mx-auto w-full max-w-site px-4 sm:px-6">
-        <BuildIn className={cn("panel p-8 md:p-12", className)}>{children}</BuildIn>
+        <BuildIn className={cn("panel p-5 sm:p-7 md:p-8", className)}>{children}</BuildIn>
       </div>
     );
   }

@@ -54,13 +54,6 @@ export const knowledgeBase: KnowledgeEntry[] = [
       "PersonaeAI is an LLM-powered synthetic survey research pipeline built at LSCH with Python, Anthropic Claude, Pandas, and the ANES 2024 Pilot dataset for 1,500 respondent profiles. The latest resume reports a 33% reduction in mean total variation distance with politically enriched AI personas versus baseline, with Streamlit/Plotly dashboards for agreement and discrepancies. Source is not public.",
   },
   {
-    id: "kiosk",
-    questions: ["What is the Rural Health Kiosk?"],
-    keywords: ["kiosk", "dexter", "rural", "capstone", "colab", "co-lab", "ishowcase"],
-    answer:
-      "Rural Health Kiosk / Dr. Dexter is a Spring 2026 University of Arizona graduate capstone. Public descriptions mention RAG, fine-tuned MedGemma, and Claude, with voice, text, and avatar interaction for rural care access. It is a collaborative team prototype, not a clinical product, and the source is not public. The team reports a Co-Lab Award at iShowcase.",
-  },
-  {
     id: "pdf-qa",
     questions: ["What is the PDF QA system?"],
     keywords: ["pdf", "qa", "rag", "retrieval", "cybersecurity", "document"],
@@ -72,7 +65,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     questions: ["What are his strongest projects?"],
     keywords: ["project", "portfolio", "github", "demo", "work", "pdf", "rag"],
     answer:
-      "Signature work: Rural Health Kiosk (team capstone), LLM-HyPZ (published research), and PersonaeAI (LSCH synthetic survey pipeline). Lab software also includes AVA, mixed-model sensitivity analysis, the systematic-review processor (20→309 papers), and a private PDF QA RAG system.",
+      "Signature work: LLM-HyPZ (published research) and PersonaeAI (LSCH synthetic survey pipeline). Lab software also includes AVA, mixed-model sensitivity analysis, the systematic-review processor (20→309 papers), and a private PDF QA RAG system.",
   },
   {
     id: "stack",

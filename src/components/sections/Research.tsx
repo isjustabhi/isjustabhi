@@ -11,7 +11,7 @@ export function Research() {
   const [copied, setCopied] = useState<string | null>(null);
 
   return (
-    <section id="research" className="scroll-mt-24 py-8 sm:py-12">
+    <section id="research" className="scroll-mt-24 py-4 sm:py-5">
       <Container panel>
         <SectionHeading
           index="04"

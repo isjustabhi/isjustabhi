@@ -5,7 +5,7 @@ import { awards, certifications } from "@/data/awards";
 
 export function Awards() {
   return (
-    <section id="awards" className="scroll-mt-24 py-8 sm:py-12">
+    <section id="awards" className="scroll-mt-24 py-4 sm:py-5">
       <Container panel>
         <SectionHeading
           index="06"

@@ -33,8 +33,8 @@
 
     <rect x="808" y="28" width="368" height="164" rx="24" fill="url(#card)" stroke="#ffffff14"/>
     <rect x="808" y="28" width="368" height="6" rx="3" fill="url(#c)"/>
-    <text x="836" y="88" fill="#67e8f9" font-size="12" letter-spacing="3" font-weight="600">PROTOTYPE</text>
-    <text x="836" y="128" fill="#f4f4f5" font-size="26" font-weight="700">Rural Health Kiosk</text>
-    <text x="836" y="162" fill="#a1a1aa" font-size="14">Voice · text · avatar · nonclinical</text>
+    <text x="836" y="88" fill="#67e8f9" font-size="12" letter-spacing="3" font-weight="600">LAB</text>
+    <text x="836" y="128" fill="#f4f4f5" font-size="26" font-weight="700">PDF QA System</text>
+    <text x="836" y="162" fill="#a1a1aa" font-size="14">Private RAG · demo on request</text>
   </g>
 </svg>
