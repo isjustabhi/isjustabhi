@@ -33,10 +33,13 @@ export function Contact() {
         </a>
         <p className="mt-4 text-sm text-mist-muted">{profile.phone}</p>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Button href={profile.links.resume} external>
+          <Button href={profile.links.appointment} external>
+            Book an appointment
+          </Button>
+          <Button href={profile.links.resume} variant="secondary" external>
             Download resume
           </Button>
-          <Button href={profile.links.cv} variant="secondary" external>
+          <Button href={profile.links.cv} variant="ghost" external>
             Download CV
           </Button>
         </div>

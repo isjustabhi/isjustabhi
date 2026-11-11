@@ -79,7 +79,7 @@ export const knowledgeBase: KnowledgeEntry[] = [
     questions: ["How can I contact him?"],
     keywords: ["contact", "email", "linkedin", "hire", "github", "phone", "resume", "cv"],
     answer:
-      "University: abhiramn@arizona.edu. Professional: abhivn.connect@gmail.com. Phone on the latest resume: +1 (484) 447-2590. Site: isjustabhi.com. Resume/CV PDFs are available on the site under /resume. GitHub: github.com/isjustabhi. LinkedIn: linkedin.com/in/isjustabhi.",
+      "University: abhiramn@arizona.edu. Professional: abhivn.connect@gmail.com. Phone on the latest resume: +1 (484) 447-2590. Book time: calendly.com/abhiramn-arizona. Site: isjustabhi.com. Resume/CV PDFs are available on the site under /resume. GitHub: github.com/isjustabhi. LinkedIn: linkedin.com/in/isjustabhi.",
   },
   {
     id: "writing",

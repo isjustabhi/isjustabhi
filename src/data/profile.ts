@@ -50,6 +50,7 @@ export const profile = {
     devpost: "https://devpost.com/isjustabhi",
     personal: "https://isjustabhi.com",
     site: "https://isjustabhi.com",
+    appointment: "https://calendly.com/abhiramn-arizona",
     resume: "/resume/Abhiram_Varma_Nandimandalam_Resume.pdf",
     cv: "/resume/Abhiram_Varma_Nandimandalam_CV.pdf",
   },
