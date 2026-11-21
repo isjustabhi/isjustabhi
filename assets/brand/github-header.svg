@@ -1,36 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-label="isjustabhi — Abhi">
   <defs>
-    <radialGradient id="bg" cx="70%" cy="30%" r="80%">
-      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.45"/>
-      <stop offset="35%" stop-color="#0f172a" stop-opacity="0.55"/>
+    <radialGradient id="bg" cx="72%" cy="28%" r="78%">
+      <stop offset="0%" stop-color="#1e40af" stop-opacity="0.42"/>
+      <stop offset="40%" stop-color="#0b1220" stop-opacity="0.7"/>
       <stop offset="100%" stop-color="#030712" stop-opacity="1"/>
     </radialGradient>
     <radialGradient id="orb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.9"/>
-      <stop offset="55%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#3b82f6" stop-opacity="0.22"/>
       <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#60a5fa"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
     <linearGradient id="cta" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
     </linearGradient>
   </defs>
 
   <rect width="1280" height="420" fill="#030712"/>
   <rect width="1280" height="420" fill="url(#bg)"/>
-  <circle cx="980" cy="140" r="210" fill="url(#orb)"/>
-  <circle cx="1120" cy="300" r="140" fill="#7c3aed" opacity="0.12"/>
+  <circle cx="990" cy="130" r="220" fill="url(#orb)"/>
+  <circle cx="1140" cy="310" r="150" fill="#0ea5e9" opacity="0.08"/>
 
-  <!-- constellation -->
   <g stroke="#93c5fd" stroke-width="1.2" opacity="0.55">
     <line x1="820" y1="90" x2="930" y2="150"/>
     <line x1="930" y1="150" x2="1040" y2="110"/>
     <line x1="930" y1="150" x2="1010" y2="250"/>
     <line x1="1010" y1="250" x2="1125" y2="210"/>
+    <line x1="1040" y1="110" x2="1125" y2="210"/>
     <circle cx="820" cy="90" r="4" fill="#dbeafe" stroke="none"/>
     <circle cx="930" cy="150" r="5" fill="#dbeafe" stroke="none"/>
     <circle cx="1040" cy="110" r="3.5" fill="#dbeafe" stroke="none"/>
@@ -43,7 +43,7 @@
   <text x="140" y="78" fill="#93c5fd" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16" font-weight="700" letter-spacing="6">ISJUSTABHI</text>
   <text x="140" y="102" fill="#64748b" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="14">Tucson · Portfolio 2026</text>
 
-  <text x="64" y="210" fill="#f8fafc" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="92" font-weight="800" letter-spacing="-4">Abhi.</text>
+  <text x="64" y="210" fill="#f8fafc" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="96" font-weight="800" letter-spacing="-4">Abhi.</text>
   <text x="64" y="268" fill="#cbd5e1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="24">Just Abhi. Building things, chasing ideas,</text>
   <text x="64" y="302" fill="#cbd5e1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="24">and smashing shuttlecocks.</text>
 
