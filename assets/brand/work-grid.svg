@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 280" role="img" aria-label="Selected work">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101826"/>
+      <stop offset="100%" stop-color="#070b12"/>
+    </linearGradient>
+    <linearGradient id="b1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="b2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#818cf8"/><stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="b3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf"/><stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="280" fill="#05080f"/>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <!-- card 1 -->
+    <rect x="24" y="28" width="436" height="224" rx="28" fill="url(#panel)" stroke="#ffffff14"/>
+    <rect x="24" y="28" width="436" height="6" rx="3" fill="url(#b1)"/>
+    <text x="56" y="92" fill="#7dd3fc" font-size="13" letter-spacing="4" font-weight="700">01 · PAPER</text>
+    <text x="56" y="148" fill="#f8fafc" font-size="36" font-weight="800">LLM-HyPZ</text>
+    <text x="56" y="188" fill="#94a3b8" font-size="16">Published pipeline over 114k CVEs</text>
+    <text x="56" y="218" fill="#64748b" font-size="14">IEEE ICDMW 2025</text>
+
+    <!-- card 2 -->
+    <rect x="482" y="28" width="436" height="224" rx="28" fill="url(#panel)" stroke="#ffffff14"/>
+    <rect x="482" y="28" width="436" height="6" rx="3" fill="url(#b2)"/>
+    <text x="514" y="92" fill="#c7d2fe" font-size="13" letter-spacing="4" font-weight="700">02 · RESEARCH</text>
+    <text x="514" y="148" fill="#f8fafc" font-size="36" font-weight="800">PersonaeAI</text>
+    <text x="514" y="188" fill="#94a3b8" font-size="16">Synthetic survey personas · Claude</text>
+    <text x="514" y="218" fill="#64748b" font-size="14">LSCH · ANES 2024</text>
+
+    <!-- card 3 -->
+    <rect x="940" y="28" width="436" height="224" rx="28" fill="url(#panel)" stroke="#ffffff14"/>
+    <rect x="940" y="28" width="436" height="6" rx="3" fill="url(#b3)"/>
+    <text x="972" y="92" fill="#5eead4" font-size="13" letter-spacing="4" font-weight="700">03 · OPEN SOURCE</text>
+    <text x="972" y="148" fill="#f8fafc" font-size="32" font-weight="800">Systematic Review</text>
+    <text x="972" y="188" fill="#94a3b8" font-size="16">Literature coder · 20 ’ 309 papers</text>
+    <text x="972" y="218" fill="#64748b" font-size="14">Public CLI · FastAPI</text>
+  </g>
+</svg>

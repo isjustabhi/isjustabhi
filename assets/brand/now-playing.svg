@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 104" role="img" aria-label="Now">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 120" role="img" aria-label="Now">
   <defs>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="55%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1524"/>
-      <stop offset="100%" stop-color="#070b12"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1422"/>
+      <stop offset="100%" stop-color="#060a12"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="104" rx="22" fill="url(#panel)" stroke="#ffffff12"/>
-  <rect x="0" y="0" width="6" height="104" rx="3" fill="url(#glow)"/>
-  <circle cx="46" cy="52" r="6" fill="#22c55e">
-    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  <rect width="1400" height="120" rx="28" fill="url(#bg)" stroke="#ffffff12"/>
+  <rect x="0" y="0" width="8" height="120" fill="url(#edge)"/>
+  <circle cx="52" cy="60" r="8" fill="#22c55e">
+    <animate attributeName="r" values="7;9;7" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.45;1" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="68" y="44" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="700">Now · Scientific Analyst @ LSCH</text>
-  <text x="68" y="72" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15">Data · AI · Bioinformatics · Tucson · badminton after hours</text>
-  <rect x="1020" y="34" width="140" height="36" rx="18" fill="#3b82f618" stroke="#3b82f655"/>
-  <text x="1090" y="57" text-anchor="middle" fill="#93c5fd" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="2">LIVE</text>
+  <text x="78" y="50" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="26" font-weight="800">Scientific Analyst · LSCH</text>
+  <text x="78" y="84" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="17">Building research software where stats, AI, and real data have to work</text>
+  <rect x="1160" y="40" width="180" height="40" rx="20" fill="#22d3ee18" stroke="#22d3ee55"/>
+  <text x="1250" y="66" text-anchor="middle" fill="#67e8f9" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="800" letter-spacing="2">NOW LIVE</text>
 </svg>
